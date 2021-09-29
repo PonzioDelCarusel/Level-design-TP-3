@@ -39,7 +39,7 @@ Objects {
   Name: "Animated Neon Sign - Diamond"
   Transform {
     Location {
-      X: -311.769165
+      X: 712.864
       Y: -962.1474
       Z: 0.000122070312
     }
