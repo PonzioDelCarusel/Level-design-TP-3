@@ -312,6 +312,7 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
+      X: -700
     }
     Rotation {
     }
