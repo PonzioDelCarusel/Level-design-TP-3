@@ -1,0 +1,103 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "4b48160b8c5845be8c7635e64c2cc505"
+  OwnerAccountId: "a1641e3976064bb88348ba14cbe81c40"
+  OwnerName: "ImmorTalos"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 140384387897671471
+  value: 9981074499846912332
+}
+AssetIdsOriginalToNew {
+  key: 402897906335226593
+  value: 9332256354982348658
+}
+AssetIdsOriginalToNew {
+  key: 523249899567721072
+  value: 15702906124902304022
+}
+AssetIdsOriginalToNew {
+  key: 914350529579084791
+  value: 10294852560385748720
+}
+AssetIdsOriginalToNew {
+  key: 3098349220850858654
+  value: 8813013787915159862
+}
+AssetIdsOriginalToNew {
+  key: 3973622118777611387
+  value: 9732992421481636258
+}
+AssetIdsOriginalToNew {
+  key: 4824306811821228550
+  value: 567836122211383552
+}
+AssetIdsOriginalToNew {
+  key: 4997965599324938479
+  value: 11654651684195683005
+}
+AssetIdsOriginalToNew {
+  key: 6002136041586086839
+  value: 7311594582767630164
+}
+AssetIdsOriginalToNew {
+  key: 6920968092910606415
+  value: 420428259490680834
+}
+AssetIdsOriginalToNew {
+  key: 7409087809617489318
+  value: 7403326293974668131
+}
+AssetIdsOriginalToNew {
+  key: 8849773590821764357
+  value: 17258471791948903960
+}
+AssetIdsOriginalToNew {
+  key: 9014920483824725919
+  value: 6452419003673371648
+}
+AssetIdsOriginalToNew {
+  key: 9438348772830364640
+  value: 13373314401949392453
+}
+AssetIdsOriginalToNew {
+  key: 10601353851627524051
+  value: 9980788142766553633
+}
+AssetIdsOriginalToNew {
+  key: 11383662677138152786
+  value: 17470667467873462224
+}
+AssetIdsOriginalToNew {
+  key: 12435350437441780723
+  value: 8017843143593283197
+}
+AssetIdsOriginalToNew {
+  key: 13606893608159092425
+  value: 5994165339195404861
+}
+AssetIdsOriginalToNew {
+  key: 16427704683816454632
+  value: 8897049503803185761
+}
+AssetIdsOriginalToNew {
+  key: 16485526591018220975
+  value: 1584140943977127142
+}
+AssetIdsOriginalToNew {
+  key: 16673319088297636899
+  value: 15814147786363180348
+}
+AssetIdsOriginalToNew {
+  key: 17741945848535987089
+  value: 14731347578632990177
+}
+AssetIdsOriginalToNew {
+  key: 17748824353439557235
+  value: 1658972301909832994
+}
+AssetIdsOriginalToNew {
+  key: 17749674093788445285
+  value: 15110034683842691768
+}

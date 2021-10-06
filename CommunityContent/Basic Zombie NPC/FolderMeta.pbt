@@ -1,0 +1,95 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "b6c2a829c8fc4b6f9050c63c58d28f99"
+  OwnerAccountId: "3051a071619a435385ecf62975cea53f"
+  OwnerName: "DoYouKillDeer"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1068405103400361345
+  value: 16540594899386248879
+}
+AssetIdsOriginalToNew {
+  key: 1399748643409968208
+  value: 9739694695635418153
+}
+AssetIdsOriginalToNew {
+  key: 2102181703977069891
+  value: 2720312709188332199
+}
+AssetIdsOriginalToNew {
+  key: 2227985837533792165
+  value: 1198272832858533202
+}
+AssetIdsOriginalToNew {
+  key: 2917516154902188907
+  value: 15424365418692893970
+}
+AssetIdsOriginalToNew {
+  key: 3824420522364601452
+  value: 13181020800845106609
+}
+AssetIdsOriginalToNew {
+  key: 5992448143337534862
+  value: 448991099118981378
+}
+AssetIdsOriginalToNew {
+  key: 7685254920588280711
+  value: 13853378851937294919
+}
+AssetIdsOriginalToNew {
+  key: 7903961538106116842
+  value: 7476536614896691978
+}
+AssetIdsOriginalToNew {
+  key: 8996552557643718600
+  value: 11810924982969354937
+}
+AssetIdsOriginalToNew {
+  key: 9827251488644147969
+  value: 17194707124314577784
+}
+AssetIdsOriginalToNew {
+  key: 11149995552776370816
+  value: 1928607802202146512
+}
+AssetIdsOriginalToNew {
+  key: 11165824210441743350
+  value: 4369497801269218333
+}
+AssetIdsOriginalToNew {
+  key: 11535294375112549966
+  value: 1717221673548634897
+}
+AssetIdsOriginalToNew {
+  key: 12314171607907446397
+  value: 11105096257714310443
+}
+AssetIdsOriginalToNew {
+  key: 12651419960628509469
+  value: 13312625269827225795
+}
+AssetIdsOriginalToNew {
+  key: 12807303046540886303
+  value: 9063021613085565317
+}
+AssetIdsOriginalToNew {
+  key: 14278873715362070509
+  value: 7667594228275670386
+}
+AssetIdsOriginalToNew {
+  key: 15753004129416267504
+  value: 9842428772295810251
+}
+AssetIdsOriginalToNew {
+  key: 16489800799753590215
+  value: 8045167849927371486
+}
+AssetIdsOriginalToNew {
+  key: 17632283365212333509
+  value: 18399740647701935506
+}
+AssetIdsOriginalToNew {
+  key: 18180259999168910535
+  value: 13467234917597596046
+}
