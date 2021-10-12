@@ -1,0 +1,75 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "7fef244e56b44a6192898e98e2b10b2c"
+  OwnerAccountId: "4499e75c814946d1ae2fcc287a5a70d1"
+  OwnerName: "CardinalZebra"
+  Version: "1.1.0"
+}
+AssetIdsOriginalToNew {
+  key: 797539621172578017
+  value: 18094390918564742938
+}
+AssetIdsOriginalToNew {
+  key: 1694825444184413963
+  value: 14270552249345620496
+}
+AssetIdsOriginalToNew {
+  key: 1974273489056782692
+  value: 2786111216307833361
+}
+AssetIdsOriginalToNew {
+  key: 4975421917359448581
+  value: 6299403946369674036
+}
+AssetIdsOriginalToNew {
+  key: 5348542220057024647
+  value: 565967935015458943
+}
+AssetIdsOriginalToNew {
+  key: 6110151164091798177
+  value: 9090714449899643830
+}
+AssetIdsOriginalToNew {
+  key: 7908260969534431213
+  value: 2179702988280517324
+}
+AssetIdsOriginalToNew {
+  key: 9992449226624151223
+  value: 530441317961850373
+}
+AssetIdsOriginalToNew {
+  key: 10106115455541958979
+  value: 13113578355003522246
+}
+AssetIdsOriginalToNew {
+  key: 10653909802203557464
+  value: 13708530554318624625
+}
+AssetIdsOriginalToNew {
+  key: 11148069613599176994
+  value: 10085777345414016737
+}
+AssetIdsOriginalToNew {
+  key: 11756659759909115138
+  value: 5926826302778564428
+}
+AssetIdsOriginalToNew {
+  key: 12987967079462848603
+  value: 15381733046194557188
+}
+AssetIdsOriginalToNew {
+  key: 14330124733333672042
+  value: 13961058809790677518
+}
+AssetIdsOriginalToNew {
+  key: 14922870269877123987
+  value: 16702568683060017289
+}
+AssetIdsOriginalToNew {
+  key: 15679934493867386773
+  value: 6789390043127640988
+}
+AssetIdsOriginalToNew {
+  key: 16368695815528132811
+  value: 770043158902680234
+}
