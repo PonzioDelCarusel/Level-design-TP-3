@@ -51,7 +51,7 @@ Assets {
   Marketplace {
     Id: "62e9982bcef543f79833560c045cd2bc"
     OwnerAccountId: "a7fa1014cab64595bee90b0049070c8e"
-    OwnerName: "AphrimCreates"
+    OwnerName: "Aphrim"
     Version: "1.0.0"
     Description: "Saves across games, palyer goes to last checkpoint, make sure checkpoint numbers go up in ascdening order. make sure origninal spawn also has checkpoint."
   }
