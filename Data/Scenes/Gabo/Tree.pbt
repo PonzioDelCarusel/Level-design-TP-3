@@ -23,6 +23,7 @@ Objects {
   ChildIds: 16742429314449631785
   ChildIds: 10821912187994025119
   ChildIds: 12077097858748910654
+  ChildIds: 12055761271390467919
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +39,39 @@ Objects {
   }
 }
 Objects {
+  Id: 12055761271390467919
+  Name: "radio antenna"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15872138838415458763
+      value {
+        Overrides {
+          Name: "Name"
+          String: "radio antenna"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -200
+            Y: -650
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14662709914557954413
+    }
+  }
+}
+Objects {
   Id: 12077097858748910654
   Name: "PAK1- Building - Slim Building 2"
   Transform {
@@ -50,6 +84,19 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1352937660244426657
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -282.527344
+            Y: -161.871094
+            Z: 237.973511
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 5480988183792494490
       value {
         Overrides {
@@ -61,6 +108,31 @@ Objects {
           Vector {
             X: 700
             Y: 350
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13600540619558494002
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -303.8125
+            Y: -21.8417969
+            Z: 102.273438
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17112008148807369315
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3.05078125
+            Y: -4.72265625
           }
         }
       }

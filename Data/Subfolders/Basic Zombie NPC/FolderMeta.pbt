@@ -1,0 +1,95 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "b6c2a829c8fc4b6f9050c63c58d28f99"
+  OwnerAccountId: "3051a071619a435385ecf62975cea53f"
+  OwnerName: "DoYouKillDeer"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1068405103400361345
+  value: 3705535525741144216
+}
+AssetIdsOriginalToNew {
+  key: 1399748643409968208
+  value: 6637788260050618486
+}
+AssetIdsOriginalToNew {
+  key: 2102181703977069891
+  value: 11864311759609919181
+}
+AssetIdsOriginalToNew {
+  key: 2227985837533792165
+  value: 4823454064907051838
+}
+AssetIdsOriginalToNew {
+  key: 2917516154902188907
+  value: 1249810526440408671
+}
+AssetIdsOriginalToNew {
+  key: 3824420522364601452
+  value: 4239123529974829336
+}
+AssetIdsOriginalToNew {
+  key: 5992448143337534862
+  value: 16887753906497940423
+}
+AssetIdsOriginalToNew {
+  key: 7685254920588280711
+  value: 8400707201660804225
+}
+AssetIdsOriginalToNew {
+  key: 7903961538106116842
+  value: 14634460766006479155
+}
+AssetIdsOriginalToNew {
+  key: 8996552557643718600
+  value: 12988240913754223029
+}
+AssetIdsOriginalToNew {
+  key: 9827251488644147969
+  value: 6444675409337441511
+}
+AssetIdsOriginalToNew {
+  key: 11149995552776370816
+  value: 13056923943310162551
+}
+AssetIdsOriginalToNew {
+  key: 11165824210441743350
+  value: 17576100031422545622
+}
+AssetIdsOriginalToNew {
+  key: 11535294375112549966
+  value: 114479366980386501
+}
+AssetIdsOriginalToNew {
+  key: 12314171607907446397
+  value: 10090678382769422625
+}
+AssetIdsOriginalToNew {
+  key: 12651419960628509469
+  value: 6709336161487123323
+}
+AssetIdsOriginalToNew {
+  key: 12807303046540886303
+  value: 12567425355540462411
+}
+AssetIdsOriginalToNew {
+  key: 14278873715362070509
+  value: 8391121859310376960
+}
+AssetIdsOriginalToNew {
+  key: 15753004129416267504
+  value: 12346318446144870836
+}
+AssetIdsOriginalToNew {
+  key: 16489800799753590215
+  value: 15545250274984140245
+}
+AssetIdsOriginalToNew {
+  key: 17632283365212333509
+  value: 7510179737756753816
+}
+AssetIdsOriginalToNew {
+  key: 18180259999168910535
+  value: 6320520498342280126
+}

@@ -1,0 +1,19 @@
+Assets {
+  Id: 16626127631939925826
+  Name: "Custom Ceiling from Urban Damaged Floor 02 - 8m_1"
+  PlatformAssetType: 13
+  SerializationVersion: 100
+  CustomMaterialAsset {
+    BaseMaterialId: 5779250375583875491
+    ParameterOverrides {
+    }
+    Assets {
+      Id: 5779250375583875491
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_urb_dmg_ceiling_001_uv1_ref"
+      }
+    }
+  }
+}
