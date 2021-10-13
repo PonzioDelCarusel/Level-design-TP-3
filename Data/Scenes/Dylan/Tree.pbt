@@ -18,6 +18,7 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 1949095382771296169
+  ChildIds: 3331215757390564819
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,40 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 3331215757390564819
+  Name: "Military Fence Gate - Double Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 287608139436937650
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Military Fence Gate - Double Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 850
+            Y: -3200
+            Z: 150
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13999528016962485955
+    }
   }
 }
 Objects {
