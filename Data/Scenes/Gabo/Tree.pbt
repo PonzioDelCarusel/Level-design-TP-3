@@ -19,6 +19,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 844087606173409613
+  ChildIds: 15796460625145468327
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,40 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 15796460625145468327
+  Name: "Basic Pistol"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5120024750926746965
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Pistol"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 200
+            Y: 150
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5770970700677279140
+    }
   }
 }
 Objects {
