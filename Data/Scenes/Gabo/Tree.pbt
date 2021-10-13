@@ -20,6 +20,9 @@ Objects {
   ChildIds: 14982843161775482339
   ChildIds: 844087606173409613
   ChildIds: 15796460625145468327
+  ChildIds: 16742429314449631785
+  ChildIds: 10821912187994025119
+  ChildIds: 12077097858748910654
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,6 +35,106 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12077097858748910654
+  Name: "PAK1- Building - Slim Building 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5480988183792494490
+      value {
+        Overrides {
+          Name: "Name"
+          String: "PAK1- Building - Slim Building 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 700
+            Y: 350
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14204387764027774907
+    }
+  }
+}
+Objects {
+  Id: 10821912187994025119
+  Name: "Ammo Pickups"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13797041144524910387
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Ammo Pickups"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 300
+            Y: 300
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17541884450193985663
+    }
+  }
+}
+Objects {
+  Id: 16742429314449631785
+  Name: "Basic SMG"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14212913716296479755
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic SMG"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 450
+            Y: 50
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15521010814852729674
+    }
   }
 }
 Objects {
@@ -117,6 +220,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 724567328293954581
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -141,6 +245,42 @@ Objects {
       Physics {
       }
       BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 724567328293954581
+  Name: "PAK1 - README "
+  Transform {
+    Location {
+      X: -7
+      Y: -12
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.02
+      Y: 0.02
+      Z: 1
+    }
+  }
+  ParentId: 14982843161775482339
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2582433641216936498
     }
   }
 }

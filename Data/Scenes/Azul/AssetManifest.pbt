@@ -629,6 +629,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7331698549137569392
+  Name: "Metal Diamond Plates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_rust_diamond-plate_001"
+  }
+}
+Assets {
   Id: 7283825798727192743
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
