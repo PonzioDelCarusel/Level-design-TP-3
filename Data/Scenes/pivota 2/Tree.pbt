@@ -19,6 +19,8 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 218196709549477599
+  ChildIds: 15569022675505135625
+  ChildIds: 3306199706542018035
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +33,74 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 3306199706542018035
+  Name: "Rainy Sky"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5666014957044794023
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rainy Sky"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 450
+            Z: 50
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13673603240795302740
+    }
+  }
+}
+Objects {
+  Id: 15569022675505135625
+  Name: "Fiery Sky"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 593840844917042851
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fiery Sky"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 700
+            Y: -550
+            Z: 50
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 730095474984774589
+    }
   }
 }
 Objects {
