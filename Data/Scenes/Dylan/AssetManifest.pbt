@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17280976981586363031
+  Name: "Corrugated Sheet Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -143,12 +152,39 @@ Assets {
   }
 }
 Assets {
+  Id: 15331667402101553817
+  Name: "Decal Rubble Concrete 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_mil_rubble_concrete_002_ref"
+  }
+}
+Assets {
+  Id: 15311694679467806527
+  Name: "Barbed Wire 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_barbed_wire_001_uv_ref"
+  }
+}
+Assets {
   Id: 15094280472468912408
   Name: "Cylinder - 2-Toned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_003"
+  }
+}
+Assets {
+  Id: 15090440283814251585
+  Name: "Hill 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_001"
   }
 }
 Assets {
@@ -161,6 +197,24 @@ Assets {
   }
 }
 Assets {
+  Id: 14764419384361929882
+  Name: "Vignette Grain Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_vignette_grain"
+  }
+}
+Assets {
+  Id: 14565993562237882178
+  Name: "Tire Worn"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_tire_worn_01_ref"
+  }
+}
+Assets {
   Id: 14526011897238267198
   Name: "Ivy 05"
   PlatformAssetType: 1
@@ -170,12 +224,48 @@ Assets {
   }
 }
 Assets {
+  Id: 14292869428683022472
+  Name: "Barrier Concrete 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street_barrier_001"
+  }
+}
+Assets {
+  Id: 14023144080669477239
+  Name: "Hill 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_002"
+  }
+}
+Assets {
   Id: 13717879580797961766
   Name: "Roof Metal 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_roof_metal_001_uv"
+  }
+}
+Assets {
+  Id: 13650699884663610996
+  Name: "Decal Stains Round 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_round_001"
+  }
+}
+Assets {
+  Id: 13637078664533668977
+  Name: "Prism - 3-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hq_001"
   }
 }
 Assets {
@@ -224,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12085483327763957900
+  Name: "Gravel Raked 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gravel_001_uv"
+  }
+}
+Assets {
   Id: 11956286602638118199
   Name: "Rusty Riveted Metal"
   PlatformAssetType: 2
@@ -251,12 +350,30 @@ Assets {
   }
 }
 Assets {
+  Id: 11036095586913707253
+  Name: "Donut"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_001"
+  }
+}
+Assets {
   Id: 10940691493066045092
   Name: "Urban Damaged Concrete Panel 02 - 4x4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dmg_concrete_panel_002_4x4m_ref"
+  }
+}
+Assets {
+  Id: 10824572197902550242
+  Name: "Tonemapping Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_tonemapping"
   }
 }
 Assets {
@@ -305,12 +422,48 @@ Assets {
   }
 }
 Assets {
+  Id: 9783373452716819494
+  Name: "Shipping Pallet - Square"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_shipping_pallet_002"
+  }
+}
+Assets {
+  Id: 9605197959426201295
+  Name: "Tire Worn - Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_tire_worn_02_ref"
+  }
+}
+Assets {
+  Id: 9065570772823211085
+  Name: "Prism - 6-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hexagon_hq_001"
+  }
+}
+Assets {
   Id: 8813735006258607418
   Name: "Grass and Soil"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_grass_003_uv"
+  }
+}
+Assets {
+  Id: 8606699818147202890
+  Name: "Tire Worn - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_tire_worn_large_01_ref"
   }
 }
 Assets {
@@ -377,6 +530,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7202307395712524294
+  Name: "Decal Dirt Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_dirt_patch_001"
+  }
+}
+Assets {
   Id: 6747614045051753376
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -413,12 +575,30 @@ Assets {
   }
 }
 Assets {
-  Id: 6045764357287793024
-  Name: "Bone Human Scattered 01"
-  PlatformAssetType: 1
+  Id: 6189817518081141992
+  Name: "Advanced Color Grading Post Process"
+  PlatformAssetType: 20
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_scatter_01_ref"
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_advanced_color_grading"
+  }
+}
+Assets {
+  Id: 5868465374856696904
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
+  }
+}
+Assets {
+  Id: 5744224166360594882
+  Name: "Simple Exposure Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_simple_exposure"
   }
 }
 Assets {
@@ -440,21 +620,30 @@ Assets {
   }
 }
 Assets {
-  Id: 5458790514689601451
-  Name: "Military Rare Crate Base"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_crate_002_ref"
-  }
-}
-Assets {
   Id: 5381367210591412322
   Name: "Urban Pipe Elbow 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_elbow_001_ref"
+  }
+}
+Assets {
+  Id: 4909850481099204290
+  Name: "Metal Iron Rusted 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_002"
+  }
+}
+Assets {
+  Id: 4898031677353287770
+  Name: "Decal Stains Bottom 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_bottom_001"
   }
 }
 Assets {
@@ -491,6 +680,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
+  Id: 2887966541650210293
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
   }
 }
 Assets {
@@ -539,12 +737,57 @@ Assets {
   }
 }
 Assets {
+  Id: 1352881788101094632
+  Name: "Environment Fog Default VFX"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 1252615610860005620
+  Name: "Ambient Occlusion Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_ao"
+  }
+}
+Assets {
   Id: 529047569542828914
   Name: "Whitebox Wall 01 Window Slot 2x"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_winSlot2x"
+  }
+}
+Assets {
+  Id: 435316825067775220
+  Name: "Depth of Field Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_DOF"
+  }
+}
+Assets {
+  Id: 423838606685000314
+  Name: "Bloom Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_post_process_bloom"
+  }
+}
+Assets {
+  Id: 364458167449529418
+  Name: "Hill 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_004"
   }
 }
 Assets {
