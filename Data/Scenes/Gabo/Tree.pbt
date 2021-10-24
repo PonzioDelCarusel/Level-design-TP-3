@@ -23,9 +23,13 @@ Objects {
   ChildIds: 16742429314449631785
   ChildIds: 13121110388061578869
   ChildIds: 11916922339906063722
-  ChildIds: 9962068627771132154
-  ChildIds: 1294682896047327654
-  ChildIds: 6108536371021870766
+  ChildIds: 8073222186051698327
+  ChildIds: 4222209329896484642
+  ChildIds: 3166137630353357053
+  ChildIds: 13802421307202547642
+  ChildIds: 11892153702036754776
+  ChildIds: 6855048299194849103
+  ChildIds: 17875978514025475363
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,54 +45,138 @@ Objects {
   }
 }
 Objects {
-  Id: 6108536371021870766
-  Name: "ZombiePrototype"
+  Id: 17875978514025475363
+  Name: "UI Settings"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "UI Settings"
+  }
+}
+Objects {
+  Id: 6855048299194849103
+  Name: "Loot Drop Factory"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15821373674062278737
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Loot Drop Factory"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8103032393308906111
+    }
+  }
+}
+Objects {
+  Id: 11892153702036754776
+  Name: "Loot Bag 5"
+  Transform {
+    Location {
+      X: -650
+      Y: -2000
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.99999994
+      Y: 0.99999994
+      Z: 0.99999994
     }
   }
   ParentId: 4781671109827199097
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1369733297381888622
+      key: 419777977596350189
       value {
         Overrides {
           Name: "Name"
-          String: "ZombiePrototype"
+          String: "Loot Bag 5"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -450
-            Y: 1600
+            X: 1000
+            Y: -2000
           }
         }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12341519070113522965
-      value {
         Overrides {
-          Name: "cs:DestructibleManager"
-          AssetReference {
-            Id: 15234622226627188398
-          }
+          Name: "cs:ResourceMin"
+          Int: 10
+        }
+        Overrides {
+          Name: "cs:ResourceMax"
+          Int: 10
         }
       }
     }
     TemplateAsset {
-      Id: 771572891909729744
+      Id: 11225773883904148015
     }
   }
 }
 Objects {
-  Id: 1294682896047327654
-  Name: "RPG Raptor"
+  Id: 13802421307202547642
+  Name: "Equipment Display Purchase Pad"
   Transform {
+    Location {
+      X: -5450
+      Y: -1150
+      Z: 25
+    }
+    Rotation {
+      Yaw: -6.10351526e-05
+    }
     Scale {
       X: 1
       Y: 1
@@ -96,94 +184,117 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 3384808585879706475
-      value {
-        Overrides {
-          Name: "AnimatedMesh"
-          AssetReference {
-            Id: 13150916590826836132
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 104.998901
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8363341854360369298
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.387158453
-            G: 0.583333313
-            B: 0.346354157
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_Detail1:id"
-          AssetReference {
-            Id: 8363341854360369298
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_Detail1:color"
-          Color {
-            R: 0.387158453
-            G: 0.583333313
-            B: 0.346354157
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_Detail2:id"
-          AssetReference {
-            Id: 8363341854360369298
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_Detail2:color"
-          Color {
-            R: 0.298039228
-            G: 0.180392161
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16661545407737424176
+      key: 6059391594860902873
       value {
         Overrides {
           Name: "Name"
-          String: "RPG Raptor"
+          String: "Equipment Display Purchase Pad"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 1050
-            Y: 1500
+            X: 250
+            Y: -1950
           }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -6.10351562e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 8939276928083213869
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Epic SMG"
+        }
+        Overrides {
+          Name: "cs:DisplaySize"
+          Float: 1
+        }
+        Overrides {
+          Name: "cs:HeightOffset"
+          Float: 150
+        }
+        Overrides {
+          Name: "cs:RequiredResourceAmount"
+          Int: 0
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 1
         }
       }
     }
     TemplateAsset {
-      Id: 17672966485323504563
+      Id: 8904252288490769999
     }
   }
 }
 Objects {
-  Id: 9962068627771132154
-  Name: "Health Bar"
+  Id: 3166137630353357053
+  Name: "Zombie rapido"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 0.8
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Zombie rapido"
+  }
+}
+Objects {
+  Id: 4222209329896484642
+  Name: "Zombie Tanque"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -191,19 +302,53 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1675656989204002660
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Health Bar"
-        }
-      }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Zombie Tanque"
+  }
+}
+Objects {
+  Id: 8073222186051698327
+  Name: "Zombie promedio"
+  Transform {
+    Location {
     }
-    TemplateAsset {
-      Id: 18035275293025237326
+    Rotation {
     }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Zombie promedio"
   }
 }
 Objects {
@@ -3147,11 +3292,19 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DamageToObjects"
-      Int: 150
+      Int: 40
     }
     Overrides {
       Name: "cs:DamageToPlayers"
       Int: 5
+    }
+    Overrides {
+      Name: "cs:HeadshotNPCs"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:HeadshotPlayers"
+      Int: 100
     }
   }
   WantsNetworking: true
@@ -3713,6 +3866,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 500
+      Y: -1600
       Z: 115
     }
     Rotation {

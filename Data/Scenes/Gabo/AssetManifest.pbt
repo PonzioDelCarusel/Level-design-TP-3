@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13150916590826836132
-  Name: "Raptor Mob"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_raptor_default_basic_001_ref"
-  }
-}
-Assets {
   Id: 13077624968254610965
   Name: "Modern Weapon - Body 01"
   PlatformAssetType: 1
@@ -113,15 +104,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_sight_rear_002"
-  }
-}
-Assets {
-  Id: 8363341854360369298
-  Name: "Bone Raw"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bone_raw_001_uv_ref"
   }
 }
 Assets {
