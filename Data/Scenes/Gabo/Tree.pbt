@@ -21,7 +21,6 @@ Objects {
   ChildIds: 844087606173409613
   ChildIds: 15796460625145468327
   ChildIds: 16742429314449631785
-  ChildIds: 972544476096711227
   ChildIds: 11916922339906063722
   ChildIds: 8073222186051698327
   ChildIds: 4222209329896484642
@@ -32,6 +31,7 @@ Objects {
   ChildIds: 5604228977272143565
   ChildIds: 18327976542094766205
   ChildIds: 6974236991698879513
+  ChildIds: 13981218696177505761
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -44,6 +44,38 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13981218696177505761
+  Name: "Armas"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Armas"
   }
 }
 Objects {
@@ -371,40 +403,6 @@ Objects {
     }
     TemplateAsset {
       Id: 8466080373645416671
-    }
-  }
-}
-Objects {
-  Id: 972544476096711227
-  Name: "Arma 1 level 1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 647772266583163502
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Arma 1 level 1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -600
-            Z: 100
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6015699958457820508
     }
   }
 }
@@ -945,8 +943,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 500
-      Y: -1600
+      X: 2550
+      Y: -700
       Z: 115
     }
     Rotation {
