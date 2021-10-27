@@ -2,7 +2,7 @@ Assets {
   Id: 7665384715794898460
   Name: "Custom Car Paint 01_5"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 1247106487219105205
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 15802123599470586632
   Name: "Custom Grid Lines Emissive"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13487303163257584361
     ParameterOverrides {

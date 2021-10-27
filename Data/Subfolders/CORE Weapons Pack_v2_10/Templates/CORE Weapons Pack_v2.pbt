@@ -138,5 +138,5 @@ Assets {
     Version: "1.0.0"
     Description: "CORE Weapons Pack (version 2)\r\n\r\nIncludes 28 different weapons with tuning and rarity levels, including grenade launchers, rocket launchers, shotguns, sniper rifles, and mroe!"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

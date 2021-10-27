@@ -2,7 +2,7 @@ Assets {
   Id: 15444488349415678012
   Name: "metalDark"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 3475572334689140520
     ParameterOverrides {

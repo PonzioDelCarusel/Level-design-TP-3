@@ -761,5 +761,5 @@ Assets {
       AssetId: "Urban_Water_Tower_Template"
     }
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

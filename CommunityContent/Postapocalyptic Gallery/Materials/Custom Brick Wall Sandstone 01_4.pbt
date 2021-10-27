@@ -2,7 +2,7 @@ Assets {
   Id: 13439653515482834110
   Name: "Custom Brick Wall Sandstone 01_4"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 1181578494561575749
     ParameterOverrides {

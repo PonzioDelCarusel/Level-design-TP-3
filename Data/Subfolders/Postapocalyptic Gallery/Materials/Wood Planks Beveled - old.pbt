@@ -2,7 +2,7 @@ Assets {
   Id: 2318757647186708562
   Name: "Wood Planks Beveled - old"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

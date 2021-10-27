@@ -2,7 +2,7 @@ Assets {
   Id: 16220062958067881962
   Name: "Rocks"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13981369533580738429
     ParameterOverrides {

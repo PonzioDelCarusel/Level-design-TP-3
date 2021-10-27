@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "A new zombies apocalypse is incoming..."
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

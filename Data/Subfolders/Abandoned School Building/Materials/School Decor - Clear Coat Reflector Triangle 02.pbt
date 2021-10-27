@@ -2,7 +2,7 @@ Assets {
   Id: 3824939129427528763
   Name: "School Decor - Clear Coat Reflector Triangle 02"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 8451704868841715559
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 1639959424869884331
   Name: "Custom - Prop Gun Spawn "
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 15989561318406380041
     ParameterOverrides {

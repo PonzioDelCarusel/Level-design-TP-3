@@ -2,7 +2,7 @@ Assets {
   Id: 7971203021792462941
   Name: "Construction Concrete Panels 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 14319590883053587125
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 6025271144316011490
   Name: "Custom Wallpaper Imperial Trellis 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 1408146242668923075
     ParameterOverrides {

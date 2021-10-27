@@ -2,7 +2,7 @@ Assets {
   Id: 15313204570578354495
   Name: "Custom Foundation from Landing 01 4m x 4m Mainstreet"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 12741750580230404482
     ParameterOverrides {

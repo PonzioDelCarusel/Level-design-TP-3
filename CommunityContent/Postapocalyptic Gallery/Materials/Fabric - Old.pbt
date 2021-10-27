@@ -2,7 +2,7 @@ Assets {
   Id: 9424394586210892286
   Name: "Fabric - Old"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

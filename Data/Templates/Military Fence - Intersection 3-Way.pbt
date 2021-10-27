@@ -512,5 +512,5 @@ Assets {
       AssetId: "Military_Fence_-_Intersection_3-Way"
     }
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

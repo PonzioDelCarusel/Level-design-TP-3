@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Needs NPC AI Client and Combat Dependencies to work\r\n\r\nSimple Zombie Mesh with slash attack"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 13295346552292067665
   Name: "construction base 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 5868465374856696904
     ParameterOverrides {

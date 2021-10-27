@@ -2,7 +2,7 @@ Assets {
   Id: 12682976527354680017
   Name: "Custom Base Material from Part - Window 01 Mainstreet"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13085174305471638229
     ParameterOverrides {

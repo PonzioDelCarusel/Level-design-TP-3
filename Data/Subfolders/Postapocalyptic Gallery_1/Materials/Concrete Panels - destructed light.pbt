@@ -2,7 +2,7 @@ Assets {
   Id: 8534258539944120995
   Name: "Concrete Panels - destructed light"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

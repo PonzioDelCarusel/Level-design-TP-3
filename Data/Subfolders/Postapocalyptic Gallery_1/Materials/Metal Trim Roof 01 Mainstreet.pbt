@@ -2,7 +2,7 @@ Assets {
   Id: 9250843688436135849
   Name: "Metal Trim Roof 01 Mainstreet"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 11336603663144694004
     ParameterOverrides {

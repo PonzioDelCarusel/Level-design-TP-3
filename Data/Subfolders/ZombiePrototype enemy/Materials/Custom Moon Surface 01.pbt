@@ -2,7 +2,7 @@ Assets {
   Id: 5433943035173841482
   Name: "Custom Moon Surface 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 10396275003752967512
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 5009934816679131870
   Name: "Urban Car Truck Lifted 01 - Mirror 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 385994996262751376
     ParameterOverrides {

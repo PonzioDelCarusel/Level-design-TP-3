@@ -40,5 +40,5 @@ Assets {
     Version: "1.1.0"
     Description: "Map for your game in military setting. Can be adjusted for various gameplay modes, team numbers and team sizes.\r\n\r\nMap includes sky, lighting and post processing effects. Make sure there is no other skyboxes or post processing effects in scene before adding map."
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

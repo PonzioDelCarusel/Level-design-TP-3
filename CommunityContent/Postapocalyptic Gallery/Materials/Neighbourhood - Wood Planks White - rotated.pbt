@@ -2,7 +2,7 @@ Assets {
   Id: 3915434971869212280
   Name: "Neighbourhood - Wood Planks White - rotated"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 3952222893082512681
     ParameterOverrides {

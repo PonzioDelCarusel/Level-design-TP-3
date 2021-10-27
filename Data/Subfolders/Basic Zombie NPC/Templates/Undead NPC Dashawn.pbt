@@ -11585,6 +11585,6 @@ Assets {
   Marketplace {
     Description: "Needs NPC AI Client and Combat Dependencies to work\r\n\r\nSimple Zombie Mesh with slash attack"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

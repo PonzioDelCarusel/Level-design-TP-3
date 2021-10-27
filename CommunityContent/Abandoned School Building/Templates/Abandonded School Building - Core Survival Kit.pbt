@@ -16087,6 +16087,6 @@ Assets {
   Marketplace {
     Description: "The abandoned school building from the CORE Survival template. \r\nStripped out and downloadable for other uses. \r\n\r\nIncludes the lockers inside and any other pieces that may be located in the interior. "
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

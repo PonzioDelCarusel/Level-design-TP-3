@@ -2,7 +2,7 @@ Assets {
   Id: 8017100896313782888
   Name: "Custom Base Material from Hesco Barrier_1"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13301058565537509778
     ParameterOverrides {

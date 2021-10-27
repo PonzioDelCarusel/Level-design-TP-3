@@ -2,7 +2,7 @@ Assets {
   Id: 13140126026023321807
   Name: "Custom Bricks Wall Flat 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 14031147348977058477
     ParameterOverrides {

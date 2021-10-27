@@ -2,7 +2,7 @@ Assets {
   Id: 13466905175341420598
   Name: "Custom- Lumpy Roof Rusty"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 15007490093890018590
     ParameterOverrides {

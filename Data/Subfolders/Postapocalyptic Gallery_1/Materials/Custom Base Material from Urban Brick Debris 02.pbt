@@ -2,7 +2,7 @@ Assets {
   Id: 14039361776119130816
   Name: "Custom Base Material from Urban Brick Debris 02"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 11458083060849459858
     ParameterOverrides {

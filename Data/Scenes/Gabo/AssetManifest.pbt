@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13043298331982480779
-  Name: "Weapon Guide 1hand_pistol"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "weapon_guide_pistol_BP_ref"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1

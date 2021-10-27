@@ -2,7 +2,7 @@ Assets {
   Id: 12671469066252610513
   Name: "Custom Wall - Outer from Wall 02 Mainstreet_1"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 6711152466137783104
     ParameterOverrides {

@@ -55,5 +55,5 @@ Assets {
     Version: "1.0.0"
     Description: "Saves across games, palyer goes to last checkpoint, make sure checkpoint numbers go up in ascdening order. make sure origninal spawn also has checkpoint."
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

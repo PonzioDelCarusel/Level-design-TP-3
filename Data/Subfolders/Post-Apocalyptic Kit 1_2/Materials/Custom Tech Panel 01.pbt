@@ -2,7 +2,7 @@ Assets {
   Id: 6885624802963072028
   Name: "Custom Tech Panel 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 1481644651483485605
     ParameterOverrides {

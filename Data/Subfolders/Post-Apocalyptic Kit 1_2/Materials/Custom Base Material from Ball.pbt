@@ -2,7 +2,7 @@ Assets {
   Id: 1101354608349349274
   Name: "Custom Base Material from Ball"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 11265043547422298051
     ParameterOverrides {

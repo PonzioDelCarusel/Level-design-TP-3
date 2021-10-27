@@ -2,7 +2,7 @@ Assets {
   Id: 1868523827704039309
   Name: "Custom Base Material from Foundation 01 Corner Mainstreet"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 16650286572263003098
     ParameterOverrides {

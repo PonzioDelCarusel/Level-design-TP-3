@@ -2,7 +2,7 @@ Assets {
   Id: 5562256187779333931
   Name: "Custom Ceramic Terracotta Pots 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 6346064576658644612
     ParameterOverrides {

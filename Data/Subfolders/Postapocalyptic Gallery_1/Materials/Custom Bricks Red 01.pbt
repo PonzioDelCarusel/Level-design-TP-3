@@ -2,7 +2,7 @@ Assets {
   Id: 2038411204098587523
   Name: "Custom Bricks Red 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 6226179207419869796
     ParameterOverrides {

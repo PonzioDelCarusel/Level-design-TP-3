@@ -2,7 +2,7 @@ Assets {
   Id: 3806435764472984697
   Name: "bladesilver"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13436218621082682462
     ParameterOverrides {

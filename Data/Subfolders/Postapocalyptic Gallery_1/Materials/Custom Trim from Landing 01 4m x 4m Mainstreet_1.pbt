@@ -2,7 +2,7 @@ Assets {
   Id: 2138735556568406180
   Name: "Custom Trim from Landing 01 4m x 4m Mainstreet_1"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 14657055749898120518
     ParameterOverrides {

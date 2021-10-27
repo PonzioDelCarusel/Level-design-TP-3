@@ -2,7 +2,7 @@ Assets {
   Id: 7555672312113920159
   Name: "Custom Trim from Stairs 01 1.5m Mainstreet"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 15449392355045718942
     ParameterOverrides {

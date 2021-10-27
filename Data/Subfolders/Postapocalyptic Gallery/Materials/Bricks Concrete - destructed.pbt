@@ -2,7 +2,7 @@ Assets {
   Id: 3332513079786616351
   Name: "Bricks Concrete - destructed"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

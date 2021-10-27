@@ -10036,6 +10036,6 @@ Assets {
   Marketplace {
     Description: "A new zombies apocalypse is incoming..."
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

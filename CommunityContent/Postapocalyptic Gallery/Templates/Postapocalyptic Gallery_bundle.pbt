@@ -43,5 +43,5 @@ Assets {
     Version: "1.3.0"
     Description: "Almost all you need to create a Postapocalyptic Enviroment.\r\n\r\nContains Core basics, CC by Standart Combo and Custom Models\r\n\r\nIncluding:\r\n-Prefabs    -Parts\r\n-Props        -Materials\r\n-SFX           -Music\r\n-VFX           -Custom Kitbashes\r\n-Decals"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

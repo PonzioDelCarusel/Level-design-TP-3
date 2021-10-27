@@ -2888,6 +2888,6 @@ Assets {
   Marketplace {
     Description: "CORE Weapons Pack (version 2)\r\n\r\nIncludes 28 different weapons with tuning and rarity levels, including grenade launchers, rocket launchers, shotguns, sniper rifles, and mroe!"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

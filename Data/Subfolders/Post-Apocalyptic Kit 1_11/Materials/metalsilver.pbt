@@ -2,7 +2,7 @@ Assets {
   Id: 202133608954190384
   Name: "metalsilver"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13436218621082682462
     ParameterOverrides {

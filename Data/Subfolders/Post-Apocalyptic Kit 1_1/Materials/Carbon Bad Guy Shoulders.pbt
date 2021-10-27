@@ -2,7 +2,7 @@ Assets {
   Id: 13434520588161633603
   Name: "Carbon Bad Guy Shoulders"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 2249794126015640337
     ParameterOverrides {

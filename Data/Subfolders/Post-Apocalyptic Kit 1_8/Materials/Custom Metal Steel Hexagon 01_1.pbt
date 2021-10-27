@@ -2,7 +2,7 @@ Assets {
   Id: 15889872382252997344
   Name: "Custom Metal Steel Hexagon 01_1"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 12491172418002496290
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 16399012178534250417
   Name: "Custom Base Material from Military Radio Small"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 3076123659077591359
     ParameterOverrides {

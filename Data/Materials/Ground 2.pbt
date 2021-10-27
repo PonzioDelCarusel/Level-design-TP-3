@@ -2,7 +2,7 @@ Assets {
   Id: 16003490678762146419
   Name: "Ground 2"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13767093430567062231
     ParameterOverrides {

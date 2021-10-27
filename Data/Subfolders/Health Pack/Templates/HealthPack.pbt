@@ -350,6 +350,6 @@ Assets {
   Marketplace {
     Description: "A healing heart that floats and spins!\r\n\r\nHow to configure:\r\n\r\nThe HealthPack folder has three custom properties that you can change:\r\n\342\200\242 float CooldownTimer - the amount of time before the health pack respawns\r\n\342\200\242 float HealAmount - the amount of health the player will restore\r\n\342\200\242 int NumberOfUses - the amount of times this health pack can be collected before disappearing completely (-1 == never disappears)"
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
   DirectlyPublished: true
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 1942495522644440976
   Name: "Roof Asphalt - Old 0.5"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

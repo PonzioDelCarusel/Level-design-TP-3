@@ -2,7 +2,7 @@ Assets {
   Id: 7326727755822791199
   Name: "Custom Wood Floor Herringbone Light"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 8453298826802008959
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 702555768623455096
   Name: "Custom Trim from Foundation 01 Mainstreet_1"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 2557472202963293677
     ParameterOverrides {

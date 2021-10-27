@@ -2,7 +2,7 @@ Assets {
   Id: 17352227562291126370
   Name: "Custom Car Paint Police White"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 1247106487219105205
     ParameterOverrides {

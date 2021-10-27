@@ -2,7 +2,7 @@ Assets {
   Id: 5756031709499063124
   Name: "Stucco Wall - Destructed"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

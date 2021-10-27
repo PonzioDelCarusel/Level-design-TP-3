@@ -2,7 +2,7 @@ Assets {
   Id: 2501959193888925483
   Name: "Dry Leaves from Tree Birch 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 1946197199319653472
     ParameterOverrides {

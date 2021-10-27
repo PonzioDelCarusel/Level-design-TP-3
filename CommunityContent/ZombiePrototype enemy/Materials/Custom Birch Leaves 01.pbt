@@ -2,7 +2,7 @@ Assets {
   Id: 9732992421481636258
   Name: "Custom Birch Leaves 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 4667015594898810353
     ParameterOverrides {

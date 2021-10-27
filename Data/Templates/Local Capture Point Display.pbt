@@ -857,5 +857,5 @@ Assets {
       AssetId: "Local_Capture_Point_Display"
     }
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

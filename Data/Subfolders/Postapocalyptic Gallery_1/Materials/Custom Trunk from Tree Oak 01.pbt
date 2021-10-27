@@ -2,7 +2,7 @@ Assets {
   Id: 2865964819746432162
   Name: "Custom Trunk from Tree Oak 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 15963073065854944260
     ParameterOverrides {

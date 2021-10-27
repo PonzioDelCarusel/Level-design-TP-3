@@ -2,7 +2,7 @@ Assets {
   Id: 12147781071224008502
   Name: "Neighbourhood - Destructed wooden floor"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9609061776700305501
     ParameterOverrides {

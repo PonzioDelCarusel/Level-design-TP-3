@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "NPCWaveSpawner let\'s you spawn multiple CORE templates in waves. Just drag in the WaveSpawner template and fill the property NPC asset with any CORE template. Once all NPCs died / are removed from the hierarchy the next wave will automatically start.\r\n\r\nSupports multiple NPC Templates, multiple Spawn Positions, DelayBetweenSpawns and BreakBetweenWaves."
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 15699993144836731769
   Name: "Dry_green Grass from Grass Tall_1"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 8045801780738595345
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 15556313595943181115
   Name: "Custom Ceramic Tile Rectangle 01 - Damage Mid"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13826046615942597993
     ParameterOverrides {
