@@ -125,6 +125,7 @@ end
 function GetCaptureProgress()
     local timeElapsed = math.max(0.0, time() - script:GetCustomProperty("LastUpdateTime"))
     local captureProgress = script:GetCustomProperty("LastCaptureProgress") + timeElapsed * GetCaptureSpeed()
+    print(script:GetCustomProperty("LastCaptureProgress"))
     return CoreMath.Clamp(captureProgress, 0.0, 1.0)
 end
 

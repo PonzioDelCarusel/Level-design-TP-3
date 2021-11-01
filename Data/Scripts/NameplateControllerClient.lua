@@ -19,7 +19,6 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 local AS = require(script:GetCustomProperty("API"))
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local NAMEPLATE_TEMPLATE = script:GetCustomProperty("NameplateTemplate")
-local SEGMENT_SEPARATOR_TEMPLATE = script:GetCustomProperty("SegmentSeparatorTemplate")
 
 -- User exposed properties
 local SHOW_NAMES = COMPONENT_ROOT:GetCustomProperty("ShowNames")
@@ -34,8 +33,6 @@ local SCALE = COMPONENT_ROOT:GetCustomProperty("Scale")
 local SHOW_NUMBERS = COMPONENT_ROOT:GetCustomProperty("ShowNumbers")
 local ANIMATE_CHANGES = COMPONENT_ROOT:GetCustomProperty("AnimateChanges")
 local CHANGE_ANIMATION_TIME = COMPONENT_ROOT:GetCustomProperty("ChangeAnimationTime")
-local SHOW_SEGMENTS = COMPONENT_ROOT:GetCustomProperty("ShowSegments")
-local SEGMENT_SIZE = COMPONENT_ROOT:GetCustomProperty("SegmentSize")
 
 -- User exposed properties (colors)
 local FRIENDLY_NAME_COLOR = COMPONENT_ROOT:GetCustomProperty("FriendlyNameColor")
@@ -67,11 +64,6 @@ end
 if CHANGE_ANIMATION_TIME <= 0.0 then
     warn("ChangeAnimationTime must be positive")
     CHANGE_ANIMATION_TIME = 1.0
-end
-
-if SEGMENT_SIZE <= 0.0 then
-    warn("SegmentSize must be positive")
-    SEGMENT_SIZE = 20.0
 end
 
 --Constants
@@ -123,10 +115,10 @@ function OnPlayerJoined(player)
 
 	-- Static properties on pieces
 	nameplates[player].borderPiece:SetScale(Vector3.New(NAMEPLATE_LAYER_THICKNESS, HEALTHBAR_WIDTH + 2.0 * BORDER_WIDTH, HEALTHBAR_HEIGHT + 2.0 * BORDER_WIDTH))
-	nameplates[player].borderPiece:SetPosition(Vector3.New(-4.0 * NAMEPLATE_LAYER_THICKNESS, 0.0, 0.0))
+	nameplates[player].borderPiece:SetPosition(Vector3.New(-3.0 * NAMEPLATE_LAYER_THICKNESS, 0.0, 0.0))
 	nameplates[player].borderPiece:SetColor(BORDER_COLOR)
 	nameplates[player].backgroundPiece:SetScale(Vector3.New(NAMEPLATE_LAYER_THICKNESS, HEALTHBAR_WIDTH, HEALTHBAR_HEIGHT))
-	nameplates[player].backgroundPiece:SetPosition(Vector3.New(-3.0 * NAMEPLATE_LAYER_THICKNESS, 0.0, 0.0))
+	nameplates[player].backgroundPiece:SetPosition(Vector3.New(-2.0 * NAMEPLATE_LAYER_THICKNESS, 0.0, 0.0))
 	nameplates[player].backgroundPiece:SetColor(BACKGROUND_COLOR)
 	nameplates[player].healthText:SetPosition(Vector3.New(50.0 * NAMEPLATE_LAYER_THICKNESS, 0.0, 0.0))		-- Text must be 50 units ahead as it doesn't have thickness
 	nameplates[player].healthText:SetColor(HEALTH_NUMBER_COLOR)
@@ -156,21 +148,11 @@ function OnPlayerJoined(player)
 	if SHOW_NAMES then
 		nameplates[player].nameText.visibility = Visibility.INHERIT
 	end
-
-	if SHOW_SEGMENTS then
-		nameplates[player].segmentSeparators = {}
-	end
 end
 
 -- nil OnPlayerLeft(Player)
 -- Destroy their nameplate
 function OnPlayerLeft(player)
-	if SHOW_SEGMENTS then
-		for _, segmentSeparator in pairs(nameplates[player].segmentSeparators) do
-			segmentSeparator:Destroy()
-		end
-	end
-
 	nameplates[player].templateRoot:Destroy()
 	nameplates[player] = nil
 end
@@ -248,12 +230,12 @@ function Tick(deltaTime)
 
 							if changeFraction > 0.0 then		-- Player took damage
 								local changePieceOffset = 50.0 * HEALTHBAR_WIDTH * (1.0 - changeFraction) - 100.0 * HEALTHBAR_WIDTH * healthFraction
-								nameplate.changePiece:SetPosition(Vector3.New(-2.0 * NAMEPLATE_LAYER_THICKNESS, changePieceOffset, 0.0))
+								nameplate.changePiece:SetPosition(Vector3.New(-1.0 * NAMEPLATE_LAYER_THICKNESS, changePieceOffset, 0.0))
 								nameplate.changePiece:SetColor(DAMAGE_CHANGE_COLOR)
 							else								-- Player was healed	
 								visibleHealthFraction = visibleHealthFraction + changeFraction
 								local changePieceOffset = 50.0 * HEALTHBAR_WIDTH * (1.0 + changeFraction) - 100.0 * HEALTHBAR_WIDTH * visibleHealthFraction
-								nameplate.changePiece:SetPosition(Vector3.New(-2.0 * NAMEPLATE_LAYER_THICKNESS, changePieceOffset, 0.0))
+								nameplate.changePiece:SetPosition(Vector3.New(-1.0 * NAMEPLATE_LAYER_THICKNESS, changePieceOffset, 0.0))
 								nameplate.changePiece:SetColor(HEAL_CHANGE_COLOR)
 							end
 						end
@@ -273,35 +255,10 @@ function Tick(deltaTime)
 						end
 					end
 
-					-- Update segments
-					if SHOW_SEGMENTS then
-						local nSegmentSeparators = math.ceil(player.maxHitPoints / SEGMENT_SIZE) - 1
-						local healthScale = (HEALTHBAR_WIDTH + BORDER_WIDTH) / player.maxHitPoints
-						local segmentBaseOffset = 100.0 * (HEALTHBAR_WIDTH + BORDER_WIDTH) / 2
-
-						for i = 1, nSegmentSeparators - #nameplate.segmentSeparators do
-							local segmentSeparator = World.SpawnAsset(SEGMENT_SEPARATOR_TEMPLATE, {parent = nameplate.templateRoot})
-							segmentSeparator:SetColor(BORDER_COLOR)
-							table.insert(nameplate.segmentSeparators, segmentSeparator)
-						end
-
-						for i = nSegmentSeparators + 1, #nameplate.segmentSeparators do
-							local segmentSeparator = nameplate.segmentSeparators[i]
-							segmentSeparator.visibility = Visibility.FORCE_OFF
-						end
-
-						for i = 1, nSegmentSeparators do
-							local segmentSeparator = nameplate.segmentSeparators[i]
-							segmentSeparator.visibility = Visibility.INHERIT
-							segmentSeparator:SetScale(Vector3.New(NAMEPLATE_LAYER_THICKNESS, BORDER_WIDTH, HEALTHBAR_HEIGHT + BORDER_WIDTH))
-							segmentSeparator:SetPosition(Vector3.New(-1.0 * NAMEPLATE_LAYER_THICKNESS, segmentBaseOffset - 100.0 * i * SEGMENT_SIZE * healthScale, 0.0))
-						end
-					end
-
 					-- Set size and position of health bar
 					local healthPieceOffset = 50.0 * HEALTHBAR_WIDTH * (1.0 - visibleHealthFraction)
 					nameplate.healthPiece:SetScale(Vector3.New(NAMEPLATE_LAYER_THICKNESS, HEALTHBAR_WIDTH * visibleHealthFraction, HEALTHBAR_HEIGHT))
-					nameplate.healthPiece:SetPosition(Vector3.New(-2.0 * NAMEPLATE_LAYER_THICKNESS, healthPieceOffset, 0.0))
+					nameplate.healthPiece:SetPosition(Vector3.New(-1.0 * NAMEPLATE_LAYER_THICKNESS, healthPieceOffset, 0.0))
 
 					-- Update hit point number
 					if SHOW_NUMBERS then

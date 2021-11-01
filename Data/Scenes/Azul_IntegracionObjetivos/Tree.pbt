@@ -15,19 +15,17 @@ Objects {
     }
   }
   ChildIds: 8097163749281277537
-  ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 12273596663357987128
   ChildIds: 14360323823081393791
   ChildIds: 15141401180032313929
   ChildIds: 10861695435391882873
-  ChildIds: 7105059832118273772
-  ChildIds: 17345675007054649355
-  ChildIds: 2803430085497015969
   ChildIds: 10569841419914814315
   ChildIds: 1712917828098109897
   ChildIds: 17540389885747863713
-  ChildIds: 14018787291281355574
+  ChildIds: 14734595475810656167
+  ChildIds: 7407284478279264789
+  ChildIds: 13583379622293455340
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,7 +41,38 @@ Objects {
   }
 }
 Objects {
-  Id: 14018787291281355574
+  Id: 13583379622293455340
+  Name: "Objetivos_logica"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Objetivos_logica"
+  }
+}
+Objects {
+  Id: 7407284478279264789
   Name: "UI Settings"
   Transform {
     Location {
@@ -57,6 +86,8 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -69,6 +100,37 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "UI Settings"
+  }
+}
+Objects {
+  Id: 14734595475810656167
+  Name: "Gameplay Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Gameplay Settings"
   }
 }
 Objects {
@@ -263,126 +325,6 @@ Objects {
     }
     TemplateAsset {
       Id: 8904252288490769999
-    }
-  }
-}
-Objects {
-  Id: 2803430085497015969
-  Name: "Local Capture Point Display"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11347049515492703570
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Local Capture Point Display"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14428041308681977959
-      value {
-        Overrides {
-          Name: "Label"
-          String: "Lo Lograste!!!"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15283536484261966428
-      value {
-        Overrides {
-          Name: "Label"
-          String: "Defiende el punto"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15941436946645689883
-    }
-  }
-}
-Objects {
-  Id: 17345675007054649355
-  Name: "Capture Point Assault"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 987261388238307019
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Capture Point Assault"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 600
-            Y: 2150
-            Z: 50
-          }
-        }
-        Overrides {
-          Name: "cs:CaptureTime"
-          Float: 60
-        }
-        Overrides {
-          Name: "cs:DisabledColor"
-          Color {
-            R: 0.0352145061
-            G: 0.986000061
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16079322940579652856
-    }
-  }
-}
-Objects {
-  Id: 7105059832118273772
-  Name: "Global Capture Point Display"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9140901771745862476
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Global Capture Point Display"
-        }
-        Overrides {
-          Name: "cs:HorizontalSpacing"
-          Float: 60
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14327158373167807848
     }
   }
 }
@@ -2448,43 +2390,6 @@ Objects {
       Id: 841534158063459245
     }
     ShouldDecrowdPlayers: true
-  }
-}
-Objects {
-  Id: 9086936746104183945
-  Name: "Gameplay Settings"
-  Transform {
-    Location {
-      X: -13.9538574
-      Y: -16.7428589
-      Z: 0.000122070312
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Gameplay Settings"
   }
 }
 Objects {

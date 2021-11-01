@@ -125,75 +125,6 @@ Assets {
       BasicBindingData {
         BasicInputs {
           KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:v"
-          }
-          KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
-          }
-          Controller {
-            Value: "mc:ebindinggamepad:none"
-          }
-        }
-      }
-      Action: "CharacterMenu"
-      Description: "Character avatar picker menu"
-      CoreBehavior {
-        Value: "mc:ecorebehavior:characterpicker"
-      }
-    }
-    Bindings {
-      BindingType {
-        Value: "mc:ebindingtype:basic"
-      }
-      BasicBindingData {
-        BasicInputs {
-          KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:b"
-          }
-          KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
-          }
-          Controller {
-            Value: "mc:ebindinggamepad:none"
-          }
-        }
-      }
-      Action: "EmoteMenu"
-      Description: "Emote picker menu"
-      CoreBehavior {
-        Value: "mc:ecorebehavior:emotepicker"
-      }
-    }
-    Bindings {
-      BindingType {
-        Value: "mc:ebindingtype:basic"
-      }
-      BasicBindingData {
-        BasicInputs {
-          KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:n"
-          }
-          KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
-          }
-          Controller {
-            Value: "mc:ebindinggamepad:none"
-          }
-        }
-      }
-      Action: "MountMenu"
-      Description: "Mount picker menu"
-      CoreBehavior {
-        Value: "mc:ecorebehavior:mountpicker"
-      }
-    }
-    Bindings {
-      BindingType {
-        Value: "mc:ebindingtype:basic"
-      }
-      BasicBindingData {
-        BasicInputs {
-          KeyboardPrimary {
             Value: "mc:ebindingkeyboard:tilde"
           }
           KeyboardSecondary {
@@ -313,7 +244,7 @@ Assets {
             Value: "mc:ebindingkeyboard:none"
           }
           Controller {
-            Value: "mc:ebindinggamepad:rightstickup"
+            Value: "mc:ebindinggamepad:rightstickdown"
           }
         }
         LeftInputs {
@@ -335,7 +266,7 @@ Assets {
             Value: "mc:ebindingkeyboard:none"
           }
           Controller {
-            Value: "mc:ebindinggamepad:rightstickdown"
+            Value: "mc:ebindinggamepad:rightstickup"
           }
         }
         RightInputs {

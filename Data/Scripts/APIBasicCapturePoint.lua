@@ -38,8 +38,8 @@ Capture point state is represented by the following table:
 	int owningTeam									Which team currently owns the point
 	float captureProgress							How much capture progress the capturing team has [0.0, 1.0]
 	float captureThreshold							How much progress is needed for the point to be captured
-	int friendliesPresent							Number of players on the progressed team present
-	int enemiesPresent								Number of players not on the progressed team present
+	int friendliesPresent							Number of players from the owning team present
+	int enemiesPresent								Number of players from the enemy team present
 	bool isEnabled									If the capture point is enabled
 	int attackingTeam								If non-zero, only the specified team can capture this point
 	int order										The spot in order this capture point should take
@@ -87,8 +87,11 @@ end
 -- <table> GetCapturePointState(string) [Client, Server]
 -- Gets the state of the capture point with the given id
 function API.GetCapturePointState(id)
-	if _G.APICapturePoints and _G.APICapturePoints[id] then
-		return _G.APICapturePoints[id].GetState()
+	if _G.APICapturePoints then
+		local functionTable = _G.APICapturePoints[id]
+		if functionTable then
+			return functionTable.GetState()
+		end
 	end
 
 	return nil
@@ -111,16 +114,22 @@ end
 -- nil ResetPoint(string) [Server]
 -- Resets the point to an uncaptured 0 progress state
 function API.ResetPoint(id)
-	if _G.APICapturePoints and _G.APICapturePoints[id] then
-		_G.APICapturePoints[id].Reset()
+	if _G.APICapturePoints then
+		local functionTable = _G.APICapturePoints[id]
+		if functionTable then
+			functionTable.Reset()
+		end
 	end
 end
 
 -- nil SetEnabled(string, bool) [Server]
 -- Sets the capture point's enabled state
 function API.SetEnabled(id, enabled)
-	if _G.APICapturePoints and _G.APICapturePoints[id] then
-		_G.APICapturePoints[id].SetEnabled(enabled)
+	if _G.APICapturePoints then
+		local functionTable = _G.APICapturePoints[id]
+		if functionTable then
+			functionTable.SetEnabled(enabled)
+		end
 	end
 end
 

@@ -169,7 +169,7 @@ function SetGeometryEnabledColor(enabled)
         if enabled then
             object:ResetColor()
         else
-            object:SetColor(DISABLED_COLOR)
+            object:SetColor(DISABLED_COLOR)           
         end
     end
 end
