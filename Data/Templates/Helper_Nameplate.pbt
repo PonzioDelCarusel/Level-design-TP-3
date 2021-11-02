@@ -9,6 +9,10 @@ Assets {
         Id: 822988238011075349
         Name: "Helper_Nameplate"
         Transform {
+          Location {
+          }
+          Rotation {
+          }
           Scale {
             X: 1
             Y: 1
@@ -122,7 +126,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -180,7 +183,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -238,7 +240,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -296,7 +297,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          DisableCastShadows: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
