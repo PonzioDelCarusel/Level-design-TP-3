@@ -265,6 +265,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 6388505558167073319
+    value {
+    }
+  }
+  ObjectStates {
     key: 6619964008419096571
     value {
     }
@@ -376,6 +381,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 9279133912973593101
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 9299454413382741255
     value {
     }
@@ -473,6 +484,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 12194990670033125824
+    value {
+    }
+  }
+  ObjectStates {
+    key: 12315440829015936571
     value {
     }
   }
@@ -586,6 +602,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 14334626329088691543
+    value {
+    }
+  }
+  ObjectStates {
     key: 14356196001861727005
     value {
     }
@@ -651,6 +672,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 16072288951931173167
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 16109699064568825982
     value {
     }
@@ -676,7 +703,17 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 16576667486007458246
+    value {
+    }
+  }
+  ObjectStates {
     key: 16671823829932445573
+    value {
+    }
+  }
+  ObjectStates {
+    key: 16737779326947922739
     value {
     }
   }
@@ -742,6 +779,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 17764482064826694844
+    value {
+    }
+  }
+  ObjectStates {
     key: 17782831213907062932
     value {
     }
@@ -787,4 +829,4 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Gabo"
+LastSavedScene: "Azul_IntegracionObjetivos"

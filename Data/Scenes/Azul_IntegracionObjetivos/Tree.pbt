@@ -20,11 +20,14 @@ Objects {
   ChildIds: 14360323823081393791
   ChildIds: 15141401180032313929
   ChildIds: 10861695435391882873
+  ChildIds: 10569841419914814315
   ChildIds: 1712917828098109897
   ChildIds: 17540389885747863713
   ChildIds: 14734595475810656167
   ChildIds: 7407284478279264789
   ChildIds: 13583379622293455340
+  ChildIds: 10708216101951233280
+  ChildIds: 16461931950787543092
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +40,99 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16461931950787543092
+  Name: "Loot Bag 5"
+  Transform {
+    Location {
+      X: 1000
+      Y: -2000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.99999994
+      Y: 0.99999994
+      Z: 0.99999994
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 419777977596350189
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Loot Bag 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 100
+            Y: -5050
+          }
+        }
+        Overrides {
+          Name: "cs:ResourceMin"
+          Int: 500
+        }
+        Overrides {
+          Name: "cs:ResourceMax"
+          Int: 500
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11225773883904148015
+    }
+  }
+}
+Objects {
+  Id: 10708216101951233280
+  Name: "Compra arma"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Compra arma"
   }
 }
 Objects {
@@ -220,6 +316,110 @@ Objects {
     }
     TemplateAsset {
       Id: 8103032393308906111
+    }
+  }
+}
+Objects {
+  Id: 10569841419914814315
+  Name: "Equipment Display Purchase Pad"
+  Transform {
+    Location {
+      X: 250
+      Y: -1950
+    }
+    Rotation {
+      Yaw: -6.10351526e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6059391594860902873
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Equipment Display Purchase Pad"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 250
+            Y: -1950
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -6.10351562e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 8939276928083213869
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Epic SMG"
+        }
+        Overrides {
+          Name: "cs:DisplaySize"
+          Float: 1
+        }
+        Overrides {
+          Name: "cs:HeightOffset"
+          Float: 150
+        }
+        Overrides {
+          Name: "cs:RequiredResourceAmount"
+          Int: 0
+        }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 1
+        }
+        Overrides {
+          Name: "cs:RequiredResource"
+          String: " "
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7513669388861698518
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8904252288490769999
     }
   }
 }
@@ -1811,8 +2011,26 @@ Objects {
           }
         }
         Overrides {
+          Name: "cs:RespawnDelay"
+          Float: 0.01
+        }
+        Overrides {
+          Name: "cs:ObjectAssetReference"
+          AssetReference {
+            Id: 4823454064907051838
+          }
+        }
+        Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -1998,7 +2216,7 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:forceoff"

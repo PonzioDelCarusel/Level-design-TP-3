@@ -42,15 +42,7 @@ Objects {
         }
         Overrides {
           Name: "cs:TeamCount"
-          Int: 0
-        }
-        Overrides {
-          Name: "cs:MaxTeamSizeDifference"
-          Int: 100
-        }
-        Overrides {
-          Name: "cs:ScrambleAtRoundEnd"
-          Bool: false
+          Int: 1
         }
       }
     }
@@ -150,7 +142,7 @@ Objects {
   Settings {
     TeamSettings {
       TeamMode_v2 {
-        Value: "mc:eteammode:friendly"
+        Value: "mc:eteammode:teamsvs"
       }
     }
   }
