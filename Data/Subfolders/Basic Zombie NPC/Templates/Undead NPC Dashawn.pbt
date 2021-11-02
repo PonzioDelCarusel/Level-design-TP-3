@@ -26,7 +26,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Team"
-            Int: 2
+            Int: 99
           }
           Overrides {
             Name: "cs:CurrentState"
