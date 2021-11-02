@@ -1090,6 +1090,8 @@ Objects {
   Name: "Cube Highlight"
   Transform {
     Location {
+      X: -150
+      Y: 100
       Z: -599.999878
     }
     Rotation {
@@ -1119,7 +1121,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"

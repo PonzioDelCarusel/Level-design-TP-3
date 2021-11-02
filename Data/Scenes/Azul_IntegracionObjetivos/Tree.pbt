@@ -11654,6 +11654,53 @@ Objects {
   ParentId: 8097163749281277537
   TemplateInstance {
     ParameterOverrideMap {
+      key: 480499670332496261
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -265.682251
+            Y: -93.6609192
+            Z: 349.999878
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2381260293322195217
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 164.896759
+            Y: -284.722168
+            Z: 299.999878
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -5.38284302
+            Yaw: -166.831314
+            Roll: 163.973877
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4800050103240609512
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 364.836914
+            Y: -52.1763916
+            Z: 196.290649
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 7506039144246427134
       value {
         Overrides {
@@ -11661,6 +11708,40 @@ Objects {
           Vector {
             X: -110.288452
             Y: -1091.02563
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10415474046218119364
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 274.029205
+            Y: -58.853363
+            Z: 384.056152
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.75
+            Y: 1
+            Z: 1.25
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11300034802551670751
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 164.836853
+            Y: -52.1763458
+            Z: 204.029327
           }
         }
       }
@@ -11751,8 +11832,8 @@ Objects {
   Name: "Military Hesco Barrier - Tall"
   Transform {
     Location {
-      X: -2936.60254
-      Y: -1326.79492
+      X: -3086.60254
+      Y: -1226.79492
     }
     Rotation {
     }
@@ -12413,7 +12494,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 56.9999886
+      X: 112.000015
       Y: 50
       Z: 1
     }
@@ -12489,8 +12570,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1850
+            X: -1686.04614
             Y: -3050
+            Z: -10
           }
         }
         Overrides {
@@ -25024,6 +25106,7 @@ Objects {
   ChildIds: 10036902119163537970
   ChildIds: 9370872951975990473
   ChildIds: 1994128076853864249
+  ChildIds: 9826720907023900772
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -25045,6 +25128,52 @@ Objects {
     SubobjectId: 4809420561777398222
     InstanceId: 2372710508258933387
     TemplateId: 9752060811670106441
+  }
+}
+Objects {
+  Id: 9826720907023900772
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: -1892.89148
+      Y: -5733.25732
+      Z: 200.001556
+    }
+    Rotation {
+      Yaw: -84.9999695
+    }
+    Scale {
+      X: 1
+      Y: 2.94439435
+      Z: 0.802978635
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -25226,7 +25355,7 @@ Objects {
     Location {
       X: -1892.89148
       Y: -5296.5791
-      Z: 100.001678
+      Z: 250.001556
     }
     Rotation {
       Yaw: -85
@@ -25320,7 +25449,7 @@ Objects {
     Location {
       X: -1877.9447
       Y: -4893.74268
-      Z: 100.001678
+      Z: 250.001556
     }
     Rotation {
       Yaw: -110
@@ -25420,7 +25549,7 @@ Objects {
   Transform {
     Location {
       X: -1847.59924
-      Y: -4093.20435
+      Y: -4088.39111
       Z: -49.9983177
     }
     Rotation {
@@ -25476,7 +25605,7 @@ Objects {
     Location {
       X: -1813.18689
       Y: -4486.55029
-      Z: 100.001678
+      Z: 250.001556
     }
     Rotation {
       Yaw: -85
@@ -25576,7 +25705,7 @@ Objects {
   Transform {
     Location {
       X: -1848.04895
-      Y: -4088.0708
+      Y: -4083.25732
       Z: 200.001678
     }
     Rotation {
@@ -25733,7 +25862,7 @@ Objects {
     Location {
       X: -1722.89124
       Y: -3223.875
-      Z: 100.001678
+      Z: 250.001556
     }
     Rotation {
       Yaw: -85
@@ -25779,7 +25908,7 @@ Objects {
     Location {
       X: -1787.64978
       Y: -3631.06885
-      Z: 100.001678
+      Z: 250.001556
     }
     Rotation {
       Yaw: -110
@@ -27193,7 +27322,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -27233,16 +27362,16 @@ Objects {
   Transform {
     Location {
       X: -2053.2207
-      Y: -1600.00012
-      Z: 100.001678
+      Y: -1533.2572
+      Z: 200.001556
     }
     Rotation {
       Yaw: -70
     }
     Scale {
-      X: 1
-      Y: 2.94439435
-      Z: 0.802978635
+      X: 1.5
+      Y: 3
+      Z: 0.75
     }
   }
   ParentId: 10746226488331083372
@@ -27279,16 +27408,16 @@ Objects {
   Transform {
     Location {
       X: -2051.45801
-      Y: -1604.84021
+      Y: -1538.09729
       Z: -54.3818626
     }
     Rotation {
       Yaw: -70
     }
     Scale {
-      X: 1.24531257
-      Y: 1
-      Z: 1
+      X: 1.86796892
+      Y: 1.01888525
+      Z: 0.934022367
     }
   }
   ParentId: 10746226488331083372
@@ -27436,7 +27565,7 @@ Objects {
     Location {
       X: -1803.22083
       Y: -2350
-      Z: 100.001678
+      Z: 200.001556
     }
     Rotation {
       Yaw: -90
@@ -27604,7 +27733,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -30845,7 +30974,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -59137,7 +59266,7 @@ Objects {
     Location {
       X: 2239.55469
       Y: -7478.1709
-      Z: 0.00143814087
+      Z: -49.998436
     }
     Rotation {
       Yaw: -60.7523499
@@ -59394,14 +59523,14 @@ Objects {
   Name: "Rock Flat 01"
   Transform {
     Location {
-      X: 4096.7793
+      X: 3960.73291
       Y: -6000
       Z: 200.001678
     }
     Rotation {
-      Pitch: 0.129917026
-      Yaw: 65
-      Roll: 33.6118965
+      Pitch: 0.12992385
+      Yaw: 95
+      Roll: 33.6120605
     }
     Scale {
       X: 4.74855471
@@ -59422,7 +59551,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -59528,9 +59657,9 @@ Objects {
   Name: "Rock Pile 002"
   Transform {
     Location {
-      X: -1153.22083
-      Y: 2616.74268
-      Z: -99.9983215
+      X: -1389.26697
+      Y: 3016.74268
+      Z: 0.00155639648
     }
     Rotation {
       Yaw: 62.0147324
@@ -60248,17 +60377,17 @@ Objects {
   Name: "Rock Pile 002"
   Transform {
     Location {
-      X: -1753.22083
-      Y: -2850
-      Z: -49.9982872
+      X: -2089.26709
+      Y: -2983.25732
+      Z: -49.9984398
     }
     Rotation {
       Yaw: 62.0147324
     }
     Scale {
-      X: 3.75873303
-      Y: 3.75873303
-      Z: 3.75873303
+      X: 7
+      Y: 7
+      Z: 7
     }
   }
   ParentId: 10746226488331083372
@@ -60313,8 +60442,8 @@ Objects {
   Name: "Rock Pile 001"
   Transform {
     Location {
-      X: -1703.22083
-      Y: -6550
+      X: -1689.26697
+      Y: -6533.25732
       Z: 0.00170898438
     }
     Rotation {
@@ -60339,7 +60468,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -60578,8 +60707,8 @@ Objects {
   Transform {
     Location {
       X: 1346.04102
-      Y: -9267.31836
-      Z: 0.00170898438
+      Y: -8883.25684
+      Z: -99.9984436
     }
     Rotation {
       Yaw: -70.2245789
@@ -60600,7 +60729,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -60763,7 +60892,7 @@ Objects {
   Name: "Hill 01"
   Transform {
     Location {
-      X: -3503.2207
+      X: -3589.26709
       Y: 699.999878
       Z: -249.998322
     }
@@ -60786,7 +60915,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -60949,12 +61078,12 @@ Objects {
   Name: "Hill 02"
   Transform {
     Location {
-      X: -4844.72852
-      Y: -12094.4795
-      Z: 0.00170898438
+      X: -3739.26709
+      Y: -6083.25732
+      Z: -99.9984436
     }
     Rotation {
-      Yaw: 178.650055
+      Yaw: 128.649933
     }
     Scale {
       X: 9.7004
@@ -60972,7 +61101,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -61012,8 +61141,8 @@ Objects {
   Transform {
     Location {
       X: -3917.78809
-      Y: -9768.84473
-      Z: 0.00170898438
+      Y: -9483.25684
+      Z: -249.998444
     }
     Rotation {
       Yaw: 93.3508301
@@ -61034,7 +61163,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -61074,8 +61203,8 @@ Objects {
   Transform {
     Location {
       X: 5000.06152
-      Y: -10557.7314
-      Z: 0.00170898438
+      Y: -10173.6699
+      Z: -99.9984436
     }
     Rotation {
       Yaw: 145.558624
@@ -61096,7 +61225,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"

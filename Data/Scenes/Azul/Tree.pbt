@@ -7718,6 +7718,27 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2505148626981250166
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -466.193542
+            Y: -31.2352257
+            Z: 49.9998779
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -3.58822632
+            Yaw: 102.632736
+            Roll: -4.4102478
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 9342688217118641214
       value {
         Overrides {
@@ -7736,6 +7757,19 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 180
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9356047472542429798
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -313.953522
+            Y: -79.9986725
+            Z: -0.0370483398
           }
         }
       }
@@ -9228,6 +9262,25 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 5701771619561267888
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -133.257141
+            Z: 60.0000687
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 7.39519464e-06
+            Roll: -59.9999695
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 4358531548099152053
     }
@@ -9525,6 +9578,19 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
+      key: 8623034665213230001
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -164.416748
+            Y: -33.2570801
+            Z: 3.39138794
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16040342581889604121
       value {
         Overrides {
@@ -9736,6 +9802,19 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
+      key: 652478188324688484
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2.36098647
+            Y: 0.96724
+            Z: 18.9402561
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 17065615057249061880
       value {
         Overrides {
@@ -9745,9 +9824,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1863.95386
+            X: -1650
             Y: -3066.74292
-            Z: 0.000122070312
           }
         }
         Overrides {
@@ -9919,7 +9997,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 56.9999886
+      X: 80.5000153
       Y: 50
       Z: 1
     }
@@ -22160,6 +22238,7 @@ Objects {
   ChildIds: 10036902119163537970
   ChildIds: 9370872951975990473
   ChildIds: 1994128076853864249
+  ChildIds: 11589407501544237706
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22181,6 +22260,52 @@ Objects {
     SubobjectId: 4809420561777398222
     InstanceId: 2372710508258933387
     TemplateId: 9752060811670106441
+  }
+}
+Objects {
+  Id: 11589407501544237706
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: -1892.89148
+      Y: -5733.25732
+      Z: 100.001678
+    }
+    Rotation {
+      Yaw: -84.9999695
+    }
+    Scale {
+      X: 1
+      Y: 2.94439435
+      Z: 0.802978635
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -24306,7 +24431,7 @@ Objects {
   Name: "Hill 05"
   Transform {
     Location {
-      X: 4296.7793
+      X: 4660.73291
       Y: -3250
       Z: -49.9983215
     }
@@ -24329,7 +24454,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -56665,7 +56790,7 @@ Objects {
   Transform {
     Location {
       X: -1153.22083
-      Y: 2616.74268
+      Y: 2966.74268
       Z: -99.9983215
     }
     Rotation {
@@ -57183,8 +57308,8 @@ Objects {
   Name: "Rock Flat 02"
   Transform {
     Location {
-      X: -4564.99707
-      Y: 3536.74219
+      X: -3939.2666
+      Y: 2516.74268
       Z: 100.001678
     }
     Rotation {
@@ -59609,7 +59734,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.25
+      X: 101.500023
       Y: 62
       Z: 1
     }
