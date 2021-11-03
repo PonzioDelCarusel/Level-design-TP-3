@@ -44,6 +44,10 @@ Objects {
           Name: "cs:TeamCount"
           Int: 1
         }
+        Overrides {
+          Name: "cs:ScrambleAtRoundEnd"
+          Bool: false
+        }
       }
     }
     TemplateAsset {
@@ -313,7 +317,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 6015699958457820508
+        Id: 9216875286505149889
       }
     }
     Overrides {
