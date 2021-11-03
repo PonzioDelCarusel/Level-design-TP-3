@@ -5,8 +5,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 375
-      Y: -150
+      X: -8604.80859
+      Y: -695.620117
     }
     Rotation {
       Yaw: 179.999954
@@ -30,7 +30,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
     ShouldDecrowdPlayers: true
   }
@@ -40,8 +40,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 375
-      Y: 400
+      X: -8549.87109
+      Y: -490.723633
     }
     Rotation {
       Yaw: 179.999954
@@ -65,7 +65,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
     ShouldDecrowdPlayers: true
   }
@@ -75,8 +75,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 375
-      Y: 150
+      X: -8301.75684
+      Y: -520.629883
     }
     Rotation {
       Yaw: 179.999954
@@ -100,7 +100,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
     ShouldDecrowdPlayers: true
   }
@@ -110,8 +110,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 375
-      Y: -400
+      X: -8331.64844
+      Y: -768.834961
     }
     Rotation {
       Yaw: 179.999954
@@ -135,7 +135,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
+    TeamInt: 2
     PlayerScaleMultiplier: 1
     ShouldDecrowdPlayers: true
   }
@@ -145,8 +145,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -375
-      Y: -150
+      X: -762.852844
+      Y: 21.4766235
     }
     Rotation {
     }
@@ -179,8 +179,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -375
-      Y: 400
+      X: -807.948486
+      Y: 399.572144
+      Z: 3.05175781e-05
     }
     Rotation {
     }
@@ -213,8 +214,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -375
-      Y: 150
+      X: -1024.45532
+      Y: 274.573364
     }
     Rotation {
     }
@@ -247,8 +248,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -375
-      Y: -400
+      X: -726.254761
+      Y: 158.081055
     }
     Rotation {
     }

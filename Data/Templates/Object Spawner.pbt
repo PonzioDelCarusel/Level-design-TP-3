@@ -23,12 +23,12 @@ Assets {
           Overrides {
             Name: "cs:ObjectAssetReference"
             AssetReference {
-              Id: 1209423549355517282
+              Id: 4823454064907051838
             }
           }
           Overrides {
             Name: "cs:RespawnDelay"
-            Float: 2
+            Float: 0.01
           }
           Overrides {
             Name: "cs:HeightOffset"
@@ -237,7 +237,7 @@ Assets {
           Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:forceoff"
