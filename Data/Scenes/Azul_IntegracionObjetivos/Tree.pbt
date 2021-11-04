@@ -24,7 +24,7 @@ Objects {
   ChildIds: 14734595475810656167
   ChildIds: 7407284478279264789
   ChildIds: 13583379622293455340
-  ChildIds: 10708216101951233280
+  ChildIds: 11608997770333248260
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,8 +40,8 @@ Objects {
   }
 }
 Objects {
-  Id: 10708216101951233280
-  Name: "Compra arma"
+  Id: 11608997770333248260
+  Name: "Compra Armas"
   Transform {
     Location {
     }
@@ -68,7 +68,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Compra arma"
+    FilePartitionName: "Compra Armas"
   }
 }
 Objects {

@@ -1,7 +1,7 @@
-Name: "Compra arma"
-RootId: 10708216101951233280
+Name: "Sniper"
+RootId: 10560208958520308995
 Objects {
-  Id: 9303193129551037748
+  Id: 16739954222941995299
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10708216101951233280
+  ParentId: 10560208958520308995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -49,8 +49,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1450
-            Y: -1600
+            X: 918.658
+            Y: -977.902039
           }
         }
         Overrides {
@@ -70,12 +70,12 @@ Objects {
         Overrides {
           Name: "cs:EquipmentAsset"
           AssetReference {
-            Id: 15861232186315142686
+            Id: 13131300941035237051
           }
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Grupa Legendary Shotgun - No puedo estar mas alta"
+          String: "Sniper LEGENDARIO By Grupa"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -116,7 +116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13666246013867080354
+  Id: 5348293510440252003
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -132,7 +132,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10708216101951233280
+  ParentId: 10560208958520308995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164,8 +164,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 700
-            Y: -1600
+            X: 464.658264
+            Y: -977.902039
           }
         }
         Overrides {
@@ -185,12 +185,12 @@ Objects {
         Overrides {
           Name: "cs:EquipmentAsset"
           AssetReference {
-            Id: 10407311513897809663
+            Id: 9403718108219242287
           }
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Grupa Epic Shotgun - La que puede puede"
+          String: "Sniper EPICO By Grupa"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -231,7 +231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1449858020957978448
+  Id: 1343888273404193934
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -247,7 +247,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10708216101951233280
+  ParentId: 10560208958520308995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -279,8 +279,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 150
-            Y: -1600
+            X: 20.9324188
+            Y: -977.902039
           }
         }
         Overrides {
@@ -300,12 +300,12 @@ Objects {
         Overrides {
           Name: "cs:EquipmentAsset"
           AssetReference {
-            Id: 11395664335271860487
+            Id: 11555182919769552137
           }
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Grupa Rare Shotgun - Sisomos"
+          String: "Sniper RARO By Grupa"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -346,7 +346,7 @@ Objects {
   }
 }
 Objects {
-  Id: 640881497971441256
+  Id: 13668132001291147214
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -363,7 +363,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10708216101951233280
+  ParentId: 10560208958520308995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -416,8 +416,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -400
-            Y: -1600
+            X: -377.446106
+            Y: -977.902039
           }
         }
         Overrides {
@@ -437,12 +437,12 @@ Objects {
         Overrides {
           Name: "cs:EquipmentAsset"
           AssetReference {
-            Id: 4278644118693594799
+            Id: 16791908069147105094
           }
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Grupa Basic Shotgun - E lo que hay"
+          String: "Sniper BASICO By Grupa"
         }
         Overrides {
           Name: "cs:DisplaySize"
