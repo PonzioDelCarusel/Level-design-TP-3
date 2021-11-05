@@ -5,11 +5,11 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -8604.80859
-      Y: -695.620117
+      X: -8203.25
+      Y: -3982.47852
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: 40
     }
     Scale {
       X: 1
@@ -40,11 +40,11 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -8549.87109
-      Y: -490.723633
+      X: -8414.48242
+      Y: -3964.0293
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: 45
     }
     Scale {
       X: 1
@@ -75,11 +75,11 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -8301.75684
-      Y: -520.629883
+      X: -8325.67285
+      Y: -3758.88281
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: 50
     }
     Scale {
       X: 1
@@ -110,11 +110,11 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -8331.64844
-      Y: -768.834961
+      X: -8114.39062
+      Y: -3777.32227
     }
     Rotation {
-      Yaw: 179.999954
+      Yaw: 45
     }
     Scale {
       X: 1
@@ -145,10 +145,11 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -762.852844
-      Y: 21.4766235
+      X: -806.170532
+      Y: -3.52417
     }
     Rotation {
+      Yaw: -175
     }
     Scale {
       X: 1
@@ -179,11 +180,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -807.948486
-      Y: 399.572144
+      X: -851.256104
+      Y: 374.5625
       Z: 3.05175781e-05
     }
     Rotation {
+      Yaw: -150
     }
     Scale {
       X: 1
@@ -214,10 +216,11 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -1024.45532
-      Y: 274.573364
+      X: -1067.76282
+      Y: 249.563599
     }
     Rotation {
+      Yaw: -155
     }
     Scale {
       X: 1
@@ -248,10 +251,11 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -726.254761
-      Y: 158.081055
+      X: -751.253052
+      Y: 201.387207
     }
     Rotation {
+      Yaw: -150
     }
     Scale {
       X: 1

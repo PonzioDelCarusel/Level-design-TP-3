@@ -25,6 +25,7 @@ Objects {
   ChildIds: 7407284478279264789
   ChildIds: 13583379622293455340
   ChildIds: 11608997770333248260
+  ChildIds: 485299421207698179
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,10 +41,106 @@ Objects {
   }
 }
 Objects {
+  Id: 485299421207698179
+  Name: "PAK1- Building - Slim Building 2"
+  Transform {
+    Location {
+      X: -13.9538574
+      Y: -6016.74268
+      Z: 0.000122070312
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1978465174858024627
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -199.023438
+            Y: 510.537109
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5480988183792494490
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SpawnPoint"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 303.812
+            Y: 1841.52771
+            Z: 0.000122070312
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -170
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10113789520670415452
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3.8828125
+            Y: -161.871216
+            Z: 419.51709
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11041944749189881336
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6.86645508e-05
+            Y: -161.871216
+            Z: -0.000122070312
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14204387764027774907
+    }
+  }
+}
+Objects {
   Id: 11608997770333248260
   Name: "Compra Armas"
   Transform {
     Location {
+      X: -1300
+      Y: -1650
+      Z: 3650
     }
     Rotation {
     }
@@ -204,6 +301,19 @@ Objects {
         Overrides {
           Name: "cs:ResourceMax"
           Int: 10
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 925571488236501906
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -747.97644
+            Y: 1552.60986
+            Z: 98.9257202
+          }
         }
       }
     }
@@ -2230,8 +2340,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -13.9538574
-      Y: -6266.74268
+      X: -100
+      Y: -6200
       Z: 115.000122
     }
     Rotation {
@@ -2285,7 +2395,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 8213253405213504879
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 323447205491213013
@@ -2317,11 +2426,9 @@ Objects {
   ChildIds: 3868770749307289497
   ChildIds: 6498009243812443636
   ChildIds: 1229183582855857632
-  ChildIds: 7225512905382568797
   ChildIds: 2954393135167922888
   ChildIds: 17052590896259959544
   ChildIds: 17198910416308550839
-  ChildIds: 9854025018164338035
   ChildIds: 10400409441878880507
   ChildIds: 7425879914974193254
   ChildIds: 9770973703065236956
@@ -2340,7 +2447,6 @@ Objects {
   ChildIds: 16053923185221154096
   ChildIds: 7229051425076721801
   ChildIds: 1386350148080808477
-  ChildIds: 12826002978722239553
   ChildIds: 9332156799128847571
   ChildIds: 2808663020474982908
   ChildIds: 8035927916373018841
@@ -2360,6 +2466,18 @@ Objects {
   ChildIds: 17312215123684346608
   ChildIds: 12079140330004784408
   ChildIds: 6661195754100613224
+  ChildIds: 1512212946904438150
+  ChildIds: 1393503580980187999
+  ChildIds: 2508991447870989035
+  ChildIds: 15053013219196297462
+  ChildIds: 12555317825646534973
+  ChildIds: 4665623302533371677
+  ChildIds: 17869237824967811107
+  ChildIds: 16419275091351231677
+  ChildIds: 12264486457480444924
+  ChildIds: 8179544439302823240
+  ChildIds: 2695881569528926282
+  ChildIds: 6789980236134912996
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2374,6 +2492,889 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 6789980236134912996
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 13.9538574
+      Y: -1983.25708
+      Z: 80
+    }
+    Rotation {
+      Pitch: -1.44787598
+      Yaw: 94.5899734
+      Roll: 26.8111496
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2695881569528926282
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: -278.880615
+      Y: -2008.87793
+    }
+    Rotation {
+      Pitch: -1.48562622
+      Yaw: 95.2403641
+      Roll: 1.80358493
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8179544439302823240
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 263.953857
+      Y: -1783.25708
+      Z: 149.999878
+    }
+    Rotation {
+      Pitch: -1.48544312
+      Yaw: -89.7594
+      Roll: 1.80348682
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12264486457480444924
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 263.953857
+      Y: -2183.25708
+      Z: 149.999878
+    }
+    Rotation {
+      Pitch: -1.48544312
+      Yaw: -89.7594
+      Roll: 1.80349636
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16419275091351231677
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 263.953857
+      Y: -1983.25708
+      Z: 149.999878
+    }
+    Rotation {
+      Pitch: -1.48544312
+      Yaw: -89.7594
+      Roll: 1.80347764
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17869237824967811107
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 563.953857
+      Y: -2183.25708
+      Z: 150
+    }
+    Rotation {
+      Pitch: -1.48544312
+      Yaw: -89.7594
+      Roll: 1.80349684
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 4665623302533371677
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 563.953857
+      Y: -1783.25708
+      Z: 150
+    }
+    Rotation {
+      Pitch: -1.48544312
+      Yaw: -89.7594
+      Roll: 1.80348706
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12555317825646534973
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 563.953857
+      Y: -1983.25708
+      Z: 150
+    }
+    Rotation {
+      Pitch: -1.48544312
+      Yaw: -89.7594
+      Roll: 1.80347848
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15053013219196297462
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 820
+      Y: -1983.25708
+      Z: 80
+    }
+    Rotation {
+      Pitch: -1.44787598
+      Yaw: -90.4099731
+      Roll: 26.8118
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2508991447870989035
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 1113.95386
+      Y: -1983.25708
+    }
+    Rotation {
+      Pitch: -1.48562622
+      Yaw: -89.7596436
+      Roll: 1.80358839
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9820333862526212022
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1393503580980187999
+  Name: "Military Barrier 04 Template"
+  Transform {
+    Location {
+      X: 100
+      Y: -3550
+      Z: 0.000122070312
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9342688217118641214
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Military Barrier 04 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -386.046143
+            Y: -433.257141
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 5
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4358781546546420633
+    }
+  }
+}
+Objects {
+  Id: 1512212946904438150
+  Name: "PAK1 - props - Barrier Fence - Barricade-1"
+  Transform {
+    Location {
+      X: 3813.95386
+      Y: -200
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8097163749281277537
+  ChildIds: 10299186408486264599
+  ChildIds: 8611712123420214707
+  ChildIds: 5008199845470632051
+  ChildIds: 14923965978838978440
+  ChildIds: 746103604492416122
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 323447205491213013
+    SubobjectId: 4833499397409996150
+    InstanceId: 14288373107040786322
+    TemplateId: 16090103642149625798
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 746103604492416122
+  Name: "Cylinder - 2-Toned"
+  Transform {
+    Location {
+      X: 82.5496521
+      Y: 82.5496521
+      Z: 611.09082
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 6.7213912
+      Roll: -6.72131348
+    }
+    Scale {
+      X: 1.2
+      Y: 1.19999957
+      Z: 3.77078247
+    }
+  }
+  ParentId: 1512212946904438150
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6466262757503379082
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.223
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.950170159
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 2887966541650210293
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15094280472468912408
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3643557258020650953
+    SubobjectId: 8500988049819664490
+    InstanceId: 14288373107040786322
+    TemplateId: 16090103642149625798
+  }
+}
+Objects {
+  Id: 14923965978838978440
+  Name: "Urban Pipe Straight"
+  Transform {
+    Location {
+      X: -94.8370209
+      Y: 60.1132622
+      Z: 110.066895
+    }
+    Rotation {
+      Pitch: -37
+    }
+    Scale {
+      X: 0.7
+      Y: 0.718484044
+      Z: 11.7
+    }
+  }
+  ParentId: 1512212946904438150
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15897705887741699672
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17056784347670215811
+    SubobjectId: 12383994543523562272
+    InstanceId: 14288373107040786322
+    TemplateId: 16090103642149625798
+  }
+}
+Objects {
+  Id: 5008199845470632051
+  Name: "Urban Pipe Straight"
+  Transform {
+    Location {
+      X: 257.682434
+      Y: 60.1130829
+      Z: 110.066895
+    }
+    Rotation {
+      Pitch: 36.9999886
+    }
+    Scale {
+      X: 0.7
+      Y: 0.718484044
+      Z: 11.7
+    }
+  }
+  ParentId: 1512212946904438150
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15897705887741699672
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5908861890276806172
+    SubobjectId: 1542879830071095743
+    InstanceId: 14288373107040786322
+    TemplateId: 16090103642149625798
+  }
+}
+Objects {
+  Id: 8611712123420214707
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: 84.9716263
+      Y: 79.0827637
+      Z: 350
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.31022465
+    }
+  }
+  ParentId: 1512212946904438150
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13800413462159448316
+    SubobjectId: 17937271616341944159
+    InstanceId: 14288373107040786322
+    TemplateId: 16090103642149625798
+  }
+}
+Objects {
+  Id: 10299186408486264599
+  Name: "Barrier Concrete 01"
+  Transform {
+    Location {
+      X: 5.15234375
+      Y: 56.0722656
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.24531257
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1512212946904438150
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14292869428683022472
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9855742199625979367
+    SubobjectId: 14965381034349357636
+    InstanceId: 14288373107040786322
+    TemplateId: 16090103642149625798
   }
 }
 Objects {
@@ -8735,53 +9736,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12826002978722239553
-  Name: "Military Hazard Barrel"
-  Transform {
-    Location {
-      X: 763.953857
-      Y: -1883.25708
-      Z: -0.000122070312
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8097163749281277537
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3694419892625887874
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 1386350148080808477
   Name: "Military Barrier 06 Template"
   Transform {
@@ -8794,6 +9748,19 @@ Objects {
   ParentId: 8097163749281277537
   TemplateInstance {
     ParameterOverrideMap {
+      key: 3562704431916912359
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -347.49646
+            Y: -62.6381226
+            Z: 45.430397
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 5341408922804504484
       value {
         Overrides {
@@ -8803,8 +9770,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1386.04614
-            Y: -83.2571411
+            X: -2236.04614
+            Y: 416.742859
             Z: -0.000122070312
           }
         }
@@ -9142,6 +10109,19 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 17581215596726971935
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -165.669296
+            Y: -60.069725
+            Z: 3.39138794
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 18384891375233103736
       value {
         Overrides {
@@ -9376,8 +10356,8 @@ Objects {
   Name: "PAK1 - props - Barrier Fence - Barricade-1"
   Transform {
     Location {
-      X: 3650
-      Y: 1250
+      X: 3913.95386
+      Y: 1316.74292
     }
     Rotation {
       Yaw: 89.9999924
@@ -9706,8 +10686,8 @@ Objects {
   Name: "PAK1 - props - Barrier Fence - Barricade-1"
   Transform {
     Location {
-      X: 3700
-      Y: 850
+      X: 3963.95386
+      Y: 916.742859
     }
     Rotation {
       Yaw: 100.000008
@@ -10109,8 +11089,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 100
-            Y: -2900
+            X: 113.953857
+            Y: -3533.25708
           }
         }
         Overrides {
@@ -10657,8 +11637,8 @@ Objects {
   Name: "PAK1 - props - Barrier Fence - Barricade-1"
   Transform {
     Location {
-      X: 3700
-      Y: 500
+      X: 3963.95386
+      Y: 516.742859
     }
     Rotation {
       Yaw: 79.9999619
@@ -10829,8 +11809,8 @@ Objects {
   Name: "Urban Pipe Straight"
   Transform {
     Location {
-      X: 166.450378
-      Y: 26.8037415
+      X: 166.450302
+      Y: 26.8037872
       Z: 148.976074
     }
     Rotation {
@@ -10879,7 +11859,7 @@ Objects {
   Name: "Military Fence Panel"
   Transform {
     Location {
-      X: -6.26054382
+      X: -6.26055527
       Y: 45.7735519
       Z: 388.90918
     }
@@ -10928,8 +11908,8 @@ Objects {
   Name: "Barrier Concrete 01"
   Transform {
     Location {
-      X: 5.15234375
-      Y: 56.0722656
+      X: 5.15233612
+      Y: 56.0722466
     }
     Rotation {
     }
@@ -11030,14 +12010,14 @@ Objects {
   Name: "Cylinder - 2-Toned"
   Transform {
     Location {
-      X: -50.9037
-      Y: -9.51764297
+      X: -180.38
+      Y: -32.3479309
       Z: 611.09082
     }
     Rotation {
       Pitch: -90
-      Yaw: -144.73558
-      Roll: 144.735657
+      Yaw: 35.2644234
+      Roll: -35.2643433
     }
     Scale {
       X: 1.2
@@ -11109,8 +12089,8 @@ Objects {
   Name: "Urban Pipe Straight"
   Transform {
     Location {
-      X: -228.290436
-      Y: -31.9541779
+      X: -357.766449
+      Y: -54.7844849
       Z: 110.066895
     }
     Rotation {
@@ -11159,8 +12139,8 @@ Objects {
   Name: "Urban Pipe Straight"
   Transform {
     Location {
-      X: 124.229111
-      Y: -31.9542694
+      X: -5.24756622
+      Y: -54.7845612
       Z: 110.066895
     }
     Rotation {
@@ -11209,8 +12189,8 @@ Objects {
   Name: "Military Fence Panel"
   Transform {
     Location {
-      X: -48.4818153
-      Y: -12.9844666
+      X: -177.958115
+      Y: -35.8147583
       Z: 350
     }
     Rotation {
@@ -11258,10 +12238,12 @@ Objects {
   Name: "Barrier Concrete 01"
   Transform {
     Location {
-      X: 5.15234375
-      Y: 56.0722656
+      X: 1965.45264
+      Y: 1043.19202
+      Z: -0.000122070312
     }
     Rotation {
+      Yaw: -25
     }
     Scale {
       X: 1.24531257
@@ -11371,53 +12353,6 @@ Objects {
     }
     TemplateAsset {
       Id: 12005747264643844100
-    }
-  }
-}
-Objects {
-  Id: 9854025018164338035
-  Name: "Military Barbed Wire Barrier Template"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8097163749281277537
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17065615057249061880
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Military Barbed Wire Barrier Template"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2200
-            Y: -1000
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999924
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3871034938949563366
     }
   }
 }
@@ -11654,52 +12589,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7225512905382568797
-  Name: "Military Hazard Barrel"
-  Transform {
-    Location {
-      X: 1050
-      Y: -1900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8097163749281277537
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3694419892625887874
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 1229183582855857632
   Name: "Tire Stack 05 - Mixed Tire Stack Messy Template"
   Transform {
@@ -11803,6 +12692,18 @@ Objects {
   }
   ParentId: 8097163749281277537
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 13880674913732717224
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -166.737961
+            Y: 263.954559
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 17676693041023783512
       value {
@@ -12350,15 +13251,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1686.04614
-            Y: -3050
+            X: -1286.04614
+            Y: -4283.25732
             Z: -10
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 19.9999943
+            Yaw: -35
           }
         }
         Overrides {
@@ -12814,6 +13715,19 @@ Objects {
   ParentId: 8097163749281277537
   TemplateInstance {
     ParameterOverrideMap {
+      key: 11367587217201162986
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 30
+            Y: 50
+            Z: 10
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 17065615057249061880
       value {
         Overrides {
@@ -12823,13 +13737,14 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -850
-            Y: 1500
+            X: 2463.95386
+            Y: 916.742859
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -50
           }
         }
         Overrides {
@@ -12869,7 +13784,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2050
+            X: -3336.04614
             Y: 1150
           }
         }
@@ -24887,6 +25802,12 @@ Objects {
   ChildIds: 9370872951975990473
   ChildIds: 1994128076853864249
   ChildIds: 9826720907023900772
+  ChildIds: 4155146539541478622
+  ChildIds: 6009922123163458397
+  ChildIds: 16552554632720692754
+  ChildIds: 16144922176266265590
+  ChildIds: 6094466210248258519
+  ChildIds: 8850578561075285737
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24908,6 +25829,282 @@ Objects {
     SubobjectId: 4809420561777398222
     InstanceId: 2372710508258933387
     TemplateId: 9752060811670106441
+  }
+}
+Objects {
+  Id: 8850578561075285737
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: 1360.73303
+      Y: -1983.2572
+      Z: 0.00156021118
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.75
+      Y: 3
+      Z: 0.5
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 6094466210248258519
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: 860.733032
+      Y: -1990
+      Z: 0.00156021118
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1.75
+      Y: 3
+      Z: 0.5
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16144922176266265590
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: 1110.73303
+      Y: -1683.2572
+      Z: 350.001556
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1.75
+      Y: 3
+      Z: 0.75
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16552554632720692754
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: 1110.73303
+      Y: -2283.25732
+      Z: 350.001556
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1.75
+      Y: 3
+      Z: 0.75
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 6009922123163458397
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: 1110.73303
+      Y: -1683.2572
+      Z: 100.001678
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1.75
+      Y: 3
+      Z: 0.75
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 4155146539541478622
+  Name: "Military Fence Panel"
+  Transform {
+    Location {
+      X: 1110.73303
+      Y: -2283.25732
+      Z: 100.001678
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1.75
+      Y: 3
+      Z: 0.75
+    }
+  }
+  ParentId: 10746226488331083372
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -59239,8 +60436,8 @@ Objects {
   Transform {
     Location {
       X: 8596.7793
-      Y: -450.000122
-      Z: 585.212219
+      Y: -533.257263
+      Z: -99.9984436
     }
     Rotation {
       Roll: 109.441467
@@ -61811,14 +63008,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 650
-            Y: 2050
-            Z: 2
+            X: -2119.30371
+            Y: -1847.21167
+            Z: -98
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 90
           }
         }
         Overrides {
@@ -61854,8 +63052,8 @@ Objects {
   Name: "PAK1 - props - Barrier Fence - Barricade-1"
   Transform {
     Location {
-      X: 3700
-      Y: 150
+      X: 3963.95386
+      Y: 166.742859
     }
     Rotation {
       Yaw: 100.000008
@@ -62585,92 +63783,6 @@ Objects {
   Blueprint {
     BlueprintAsset {
       Id: 7887238662729938253
-    }
-  }
-}
-Objects {
-  Id: 8213253405213504879
-  Name: "PAK1 - props - Mobile Area Lights"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8097163749281277537
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3286212930675130437
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6.99325705
-            Y: -168.7677
-            Z: 523.639404
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10708670517726575054
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 126.78569
-            Y: 271.892761
-            Z: 427.225464
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11566008198716545808
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Generador"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 263.953857
-            Y: -883.257141
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 24.999979
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14222946227894097316
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -345.878906
-            Y: -386.809448
-            Z: 619.627869
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16090142976872263796
     }
   }
 }

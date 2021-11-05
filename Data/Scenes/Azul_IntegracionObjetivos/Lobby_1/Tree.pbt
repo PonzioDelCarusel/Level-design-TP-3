@@ -198,11 +198,11 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -2049.9541
-      Y: -6039.96387
+      X: 569.15033
+      Y: -6413.56543
     }
     Rotation {
-      Yaw: 90
+      Yaw: -170
     }
     Scale {
       X: 1.1
@@ -258,11 +258,11 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -3249.86133
-      Y: -6049.46777
+      X: 786.800781
+      Y: -7593.14648
     }
     Rotation {
-      Yaw: -3.05175781e-05
+      Yaw: 100
     }
     Scale {
       X: 1.5
@@ -318,11 +318,11 @@ Objects {
   Name: "Whitebox Wall 01"
   Transform {
     Location {
-      X: -3250.01733
-      Y: -5149.07715
+      X: -99.5751495
+      Y: -7749.59082
     }
     Rotation {
-      Yaw: -3.05175781e-05
+      Yaw: 100
     }
     Scale {
       X: 1.5

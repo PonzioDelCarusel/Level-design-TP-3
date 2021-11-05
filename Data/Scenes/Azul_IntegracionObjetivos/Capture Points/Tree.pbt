@@ -5,10 +5,12 @@ Objects {
   Name: "Point C"
   Transform {
     Location {
-      X: 600
-      Y: 2050
+      X: -2150
+      Y: -1900
+      Z: -100
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -668,8 +670,8 @@ Objects {
   Name: "Point B"
   Transform {
     Location {
-      X: -2450
-      Y: -900
+      X: 550
+      Y: -2100
     }
     Rotation {
     }
