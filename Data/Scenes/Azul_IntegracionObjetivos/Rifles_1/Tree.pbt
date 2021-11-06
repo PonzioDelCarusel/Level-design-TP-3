@@ -40,6 +40,27 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 1788483168613121234
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 291.654785
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5181372142478166932
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6059391594860902873
       value {
         Overrides {
@@ -50,13 +71,13 @@ Objects {
           Name: "Position"
           Vector {
             X: 918.658
-            Y: -1390.51819
+            Y: -1350
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 90
+            Yaw: -160
           }
         }
         Overrides {
@@ -108,6 +129,35 @@ Objects {
             Value: "mc:evisibilitysetting:forceoff"
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 201.654785
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9820443761214369796
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -51.3030396
+            Y: -140.953888
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10101057039625118317
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 241.654785
+          }
+        }
       }
     }
     TemplateAsset {
@@ -155,6 +205,28 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 1788483168613121234
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 330
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4169838878789715414
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 51.6547852
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6059391594860902873
       value {
         Overrides {
@@ -164,14 +236,14 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 683.178772
-            Y: -1390.51807
+            X: 918.658
+            Y: -1470
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 90
+            Yaw: -170
           }
         }
         Overrides {
@@ -221,6 +293,18 @@ Objects {
           Name: "Visible"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9820443761214369796
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -17.3648319
+            Y: -98.4807587
           }
         }
       }
