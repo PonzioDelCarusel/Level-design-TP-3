@@ -21,12 +21,12 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:EquipmentName"
-            String: "Basic Blade"
+            String: "Sniper mejorado"
           }
           Overrides {
             Name: "cs:EquipmentAsset"
             AssetReference {
-              Id: 5137802864982390995
+              Id: 13131300941035237051
             }
           }
           Overrides {
@@ -35,15 +35,15 @@ Assets {
           }
           Overrides {
             Name: "cs:CostAmount"
-            Int: 10
+            Int: 200
           }
           Overrides {
             Name: "cs:RequiredResource"
-            String: "Level"
+            String: " "
           }
           Overrides {
             Name: "cs:RequiredResourceAmount"
-            Int: 1
+            Int: 0
           }
           Overrides {
             Name: "cs:PurchaseSuccessSound"
@@ -59,7 +59,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HeightOffset"
-            Float: 60
+            Float: 150
           }
           Overrides {
             Name: "cs:DisplaySize"
@@ -124,6 +124,7 @@ Assets {
           Location {
           }
           Rotation {
+            Yaw: 105
           }
           Scale {
             X: 1
@@ -225,7 +226,7 @@ Assets {
         Name: "Trigger"
         Transform {
           Location {
-            Z: 70
+            Z: 50
           }
           Rotation {
           }
@@ -346,7 +347,7 @@ Assets {
         Name: "Name Label"
         Transform {
           Location {
-            Z: 340
+            Z: 330
           }
           Rotation {
           }
@@ -451,7 +452,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -514,7 +515,7 @@ Assets {
         Name: "Cylinder"
         Transform {
           Location {
-            Z: 50
+            Z: 51.6547852
           }
           Rotation {
           }

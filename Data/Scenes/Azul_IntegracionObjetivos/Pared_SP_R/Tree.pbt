@@ -454,6 +454,27 @@ Objects {
   ChildIds: 4102730235276631215
   ChildIds: 13472426984221017586
   ChildIds: 13430647250568200575
+  ChildIds: 4010341090609072540
+  ChildIds: 4459854236804605108
+  ChildIds: 10852776338064559260
+  ChildIds: 5575435971705919074
+  ChildIds: 13338891654869553455
+  ChildIds: 13705931631949976134
+  ChildIds: 12610079522908048694
+  ChildIds: 2133582529672524489
+  ChildIds: 16343460211007968928
+  ChildIds: 17105112017967887272
+  ChildIds: 13967753318649647217
+  ChildIds: 16625400827110778824
+  ChildIds: 13768874245190468420
+  ChildIds: 5145930186778690971
+  ChildIds: 14263722556038909655
+  ChildIds: 13876044908792704967
+  ChildIds: 12035311804912884097
+  ChildIds: 3258847430347287891
+  ChildIds: 5628551080615428767
+  ChildIds: 12274787165745280532
+  ChildIds: 5817010764450822575
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -475,17 +496,1156 @@ Objects {
   }
 }
 Objects {
+  Id: 5817010764450822575
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: 13.9538574
+      Y: 4600
+      Z: -0.000106811523
+    }
+    Rotation {
+      Pitch: -0.828399658
+      Yaw: -176.68045
+      Roll: 3.6328311
+    }
+    Scale {
+      X: 0.507852912
+      Y: 0.508617699
+      Z: 0.386822343
+    }
+  }
+  ParentId: 12476081473075343226
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11567879254135846426
+    SubobjectId: 14936064277751923916
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 12274787165745280532
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: 236.323608
+      Y: 4595
+      Z: 449.999878
+    }
+    Rotation {
+      Yaw: 9.52251148
+      Roll: -11.7713013
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10204537073305952380
+    SubobjectId: 16308413662259450538
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 5628551080615428767
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 336.674927
+      Y: 4570
+      Z: 349.999878
+    }
+    Rotation {
+      Pitch: -2.1602478
+      Yaw: 12.4772816
+      Roll: -0.136566162
+    }
+    Scale {
+      X: 1.00000024
+      Y: 0.774829805
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14100819404619238876
+    SubobjectId: 12429652659129909002
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 3258847430347287891
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: 288.1604
+      Y: 4600
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: 15.9692545
+      Yaw: 179.103241
+      Roll: 4.18945789
+    }
+    Scale {
+      X: 1.00000036
+      Y: 0.67029047
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11705540472387382126
+    SubobjectId: 14824931595516189112
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 12035311804912884097
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: 314.350464
+      Y: 4625.3
+      Z: -0.000106811523
+    }
+    Rotation {
+      Pitch: -0.828399658
+      Yaw: -176.68045
+      Roll: 3.63283181
+    }
+    Scale {
+      X: 0.507852912
+      Y: 0.508617699
+      Z: 0.386822343
+    }
+  }
+  ParentId: 12476081473075343226
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11567879254135846426
+    SubobjectId: 14936064277751923916
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 13876044908792704967
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: 186.871582
+      Y: 4600
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: -13.8805847
+      Yaw: 179.160492
+      Roll: 7.22276306
+    }
+    Scale {
+      X: 1.00000036
+      Y: 0.67029047
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11705540472387382126
+    SubobjectId: 14824931595516189112
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 14263722556038909655
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: 187.002075
+      Y: 4600
+      Z: 149.999893
+    }
+    Rotation {
+      Pitch: -0.828399658
+      Yaw: -176.68045
+      Roll: 3.63282633
+    }
+    Scale {
+      X: 0.507852912
+      Y: 0.508617699
+      Z: 0.386822343
+    }
+  }
+  ParentId: 12476081473075343226
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11567879254135846426
+    SubobjectId: 14936064277751923916
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 5145930186778690971
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: 87.2520752
+      Y: 4600
+      Z: 199.999878
+    }
+    Rotation {
+      Pitch: -13.8805847
+      Yaw: 179.160492
+      Roll: 7.22274
+    }
+    Scale {
+      X: 1.00000036
+      Y: 0.67029047
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11705540472387382126
+    SubobjectId: 14824931595516189112
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 13768874245190468420
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -126.905518
+      Y: 4566.74268
+      Z: 349.999878
+    }
+    Rotation {
+      Pitch: -68.3904724
+      Yaw: 21.4340401
+      Roll: -19.6344
+    }
+    Scale {
+      X: 0.999999583
+      Y: 0.837875783
+      Z: 0.999999881
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5070139380288644982
+    SubobjectId: 2995477937840215456
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 16625400827110778824
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -62.5344543
+      Y: 4595
+      Z: 449.999878
+    }
+    Rotation {
+      Yaw: 9.52254486
+      Roll: -11.7712708
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10204537073305952380
+    SubobjectId: 16308413662259450538
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 13967753318649647217
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: -161.422119
+      Y: 4570
+      Z: 349.999878
+    }
+    Rotation {
+      Pitch: -2.1602478
+      Yaw: 12.4772816
+      Roll: -0.136566162
+    }
+    Scale {
+      X: 1.00000024
+      Y: 0.774829805
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14100819404619238876
+    SubobjectId: 12429652659129909002
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 17105112017967887272
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -111.986908
+      Y: 4600
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: -13.8805847
+      Yaw: 179.160492
+      Roll: 7.22274
+    }
+    Scale {
+      X: 1.00000036
+      Y: 0.67029047
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11705540472387382126
+    SubobjectId: 14824931595516189112
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 16343460211007968928
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -136.046143
+      Y: 3940
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: 15.9692545
+      Yaw: -5.89682
+      Roll: 4.18941355
+    }
+    Scale {
+      X: 1.00000036
+      Y: 0.67029047
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11705540472387382126
+    SubobjectId: 14824931595516189112
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 2133582529672524489
+  Name: "Corrugated Sheet Small"
+  Transform {
+    Location {
+      X: -86.0461426
+      Y: 3916.74268
+      Z: 449.999878
+    }
+    Rotation {
+      Yaw: -175.477448
+      Roll: -11.7703552
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17656495108824350163
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10204537073305952380
+    SubobjectId: 16308413662259450538
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 12610079522908048694
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 313.953857
+      Y: 3925.13672
+      Z: 349.999878
+    }
+    Rotation {
+      Pitch: -2.1602478
+      Yaw: -172.522705
+      Roll: -0.136566162
+    }
+    Scale {
+      X: 1.00000024
+      Y: 0.774829805
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14100819404619238876
+    SubobjectId: 12429652659129909002
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 13705931631949976134
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: 13.9538574
+      Y: 3916.74268
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: -78.8485107
+      Yaw: -103.257751
+      Roll: -86.8969116
+    }
+    Scale {
+      X: 0.999999583
+      Y: 0.837875783
+      Z: 0.999999881
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5070139380288644982
+    SubobjectId: 2995477937840215456
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 13338891654869553455
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: 363.953857
+      Y: 3900
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: -68.3909302
+      Yaw: -163.565842
+      Roll: -19.6344299
+    }
+    Scale {
+      X: 0.999999583
+      Y: 0.837875783
+      Z: 0.999999881
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5070139380288644982
+    SubobjectId: 2995477937840215456
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 5575435971705919074
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: -36.0461426
+      Y: 3920.84277
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: -13.8805847
+      Yaw: -5.83953857
+      Roll: 7.22253275
+    }
+    Scale {
+      X: 1.00000036
+      Y: 0.67029047
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11705540472387382126
+    SubobjectId: 14824931595516189112
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 10852776338064559260
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: -162.336548
+      Y: 3940
+      Z: -0.000106811523
+    }
+    Rotation {
+      Pitch: -0.828399658
+      Yaw: -1.68060303
+      Roll: 3.63279557
+    }
+    Scale {
+      X: 0.507852912
+      Y: 0.508617699
+      Z: 0.386822343
+    }
+  }
+  ParentId: 12476081473075343226
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11567879254135846426
+    SubobjectId: 14936064277751923916
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 4459854236804605108
+  Name: "Corrugated Sheet Bent"
+  Transform {
+    Location {
+      X: 263.953857
+      Y: 3920.84277
+      Z: 49.9998779
+    }
+    Rotation {
+      Pitch: -13.8805847
+      Yaw: -5.83953857
+      Roll: 7.22251844
+    }
+    Scale {
+      X: 1.00000036
+      Y: 0.67029047
+      Z: 1.00000012
+    }
+  }
+  ParentId: 12476081473075343226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6865249745567109080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11705540472387382126
+    SubobjectId: 14824931595516189112
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
+  Id: 4010341090609072540
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: 137.663452
+      Y: 3922.34277
+      Z: -0.000106811523
+    }
+    Rotation {
+      Pitch: -0.828399658
+      Yaw: -1.68060303
+      Roll: 3.63279247
+    }
+    Scale {
+      X: 0.507852912
+      Y: 0.508617699
+      Z: 0.386822343
+    }
+  }
+  ParentId: 12476081473075343226
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 11567879254135846426
+    SubobjectId: 14936064277751923916
+    InstanceId: 193288468092081079
+    TemplateId: 12563382984541094365
+  }
+}
+Objects {
   Id: 13430647250568200575
   Name: "Corrugated Sheet Small"
   Transform {
     Location {
-      X: 268.37265
-      Y: 4.63769531
-      Z: 301.439453
+      X: 213.953857
+      Y: 3916.74268
+      Z: 449.999878
     }
     Rotation {
       Yaw: -175.477463
-      Roll: -11.7703161
+      Roll: -11.7703247
     }
     Scale {
       X: 1
@@ -593,7 +1753,7 @@ Objects {
   Name: "Corrugated Sheet Large"
   Transform {
     Location {
-      X: 396.846436
+      X: 563.953857
       Z: 69.3260651
     }
     Rotation {
@@ -654,14 +1814,14 @@ Objects {
   Name: "Corrugated Sheet Tall"
   Transform {
     Location {
-      X: 332.740326
-      Y: 1.79711914
-      Z: 248.481827
+      X: 278.321533
+      Y: 3913.90234
+      Z: 349.999878
     }
     Rotation {
-      Pitch: -68.3910065
+      Pitch: -68.3909912
       Yaw: -163.565887
-      Roll: -19.6344185
+      Roll: -19.6344299
     }
     Scale {
       X: 0.999999583
@@ -706,13 +1866,13 @@ Objects {
   Name: "Corrugated Sheet Bent"
   Transform {
     Location {
-      X: 144.663071
-      Y: 8.73779297
-      Z: 25.9333954
+      X: 63.9538574
+      Y: 3920.84277
+      Z: 199.999878
     }
     Rotation {
-      Pitch: -13.8805761
-      Yaw: -5.83953905
+      Pitch: -13.8805847
+      Yaw: -5.83953857
       Roll: 7.22250462
     }
     Scale {
@@ -758,14 +1918,14 @@ Objects {
   Name: "Corrugated Sheet Medium"
   Transform {
     Location {
-      X: 55.2939453
-      Y: 13.0317383
-      Z: 204.99408
+      X: -186.046143
+      Y: 3925.13672
+      Z: 349.999878
     }
     Rotation {
-      Pitch: -2.16025209
+      Pitch: -2.1602478
       Yaw: -172.522705
-      Roll: -0.136566058
+      Roll: -0.136566162
     }
     Scale {
       X: 1.00000024
@@ -810,14 +1970,14 @@ Objects {
   Name: "Corrugated Sheet Small"
   Transform {
     Location {
-      X: 321.780731
+      X: 363.953857
       Y: 39.4624023
       Z: 171.066925
     }
     Rotation {
       Pitch: -77.8323669
       Yaw: -154.23082
-      Roll: -1.67005694
+      Roll: -1.67004395
     }
     Scale {
       X: 0.893104076
@@ -862,13 +2022,13 @@ Objects {
   Name: "Corrugated Sheet Large"
   Transform {
     Location {
-      X: 62.3085938
-      Y: 10.2380371
-      Z: 0.984577179
+      X: -36.0461426
+      Y: 3922.34277
+      Z: 149.999893
     }
     Rotation {
-      Pitch: -0.82839942
-      Yaw: -1.68059742
+      Pitch: -0.828399658
+      Yaw: -1.68060303
       Roll: 3.63278961
     }
     Scale {

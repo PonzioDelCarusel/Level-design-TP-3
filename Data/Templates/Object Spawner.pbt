@@ -23,7 +23,7 @@ Assets {
           Overrides {
             Name: "cs:ObjectAssetReference"
             AssetReference {
-              Id: 4823454064907051838
+              Id: 6944455936005247128
             }
           }
           Overrides {

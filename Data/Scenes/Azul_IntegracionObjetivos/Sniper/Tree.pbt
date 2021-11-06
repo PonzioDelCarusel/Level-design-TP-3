@@ -37,6 +37,43 @@ Objects {
             Z: 50
           }
         }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 5
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1788483168613121234
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 330
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5023356166560424698
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5181372142478166932
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -49,8 +86,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 918.658
-            Y: -977.902039
+            X: 1266.73901
+            Y: -856.354187
           }
         }
         Overrides {
@@ -91,7 +128,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 65
+          Int: 200
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -106,6 +143,17 @@ Objects {
           Name: "Visible"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9820443761214369796
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 105
           }
         }
       }

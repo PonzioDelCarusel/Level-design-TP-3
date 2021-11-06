@@ -330,11 +330,11 @@ Objects {
     }
     Overrides {
       Name: "cs:OnlyEquipDuringRound"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:ResetStanceAfterRound"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:EquipmentTemplate:tooltip"

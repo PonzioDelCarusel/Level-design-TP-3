@@ -40,6 +40,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 1788483168613121234
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 301.654785
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6059391594860902873
       value {
         Overrides {
@@ -49,8 +60,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 918.658
-            Y: -1390.51819
+            X: 1316.71362
+            Y: -1206.81482
           }
         }
         Overrides {
@@ -91,7 +102,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 50
+          Int: 100
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -106,6 +117,34 @@ Objects {
           Name: "Visible"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 211.654785
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9820443761214369796
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 105
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10101057039625118317
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 251.654785
           }
         }
       }
@@ -155,6 +194,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 1788483168613121234
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 330
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6059391594860902873
       value {
         Overrides {
@@ -164,8 +214,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 683.178772
-            Y: -1390.51807
+            X: 1366.729
+            Y: -1406.83337
           }
         }
         Overrides {
@@ -206,7 +256,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 30
+          Int: 70
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -221,6 +271,17 @@ Objects {
           Name: "Visible"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9820443761214369796
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 100
           }
         }
       }
