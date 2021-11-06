@@ -1,7 +1,7 @@
 Name: "Wheels_4"
-RootId: 7727033111370339944
+RootId: 10547141154339946391
 Objects {
-  Id: 9096015396048168411
+  Id: 10212752817959170224
   Name: "Military Worn Tire 01"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.99999976
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -51,7 +51,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15349970430451025223
+  Id: 2358624562097439036
   Name: "Military Worn Tire 01"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 1.99999988
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -101,7 +101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12808389055583152557
+  Id: 9859200599678063687
   Name: "Military Tank Historic Wheel 01"
   Transform {
     Location {
@@ -117,7 +117,7 @@ Objects {
       Z: 2.04166746
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -150,7 +150,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15916597541302027987
+  Id: 14131008874549412429
   Name: "Military Tank Historic Wheel 01"
   Transform {
     Location {
@@ -166,7 +166,7 @@ Objects {
       Z: 2.04166746
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -199,7 +199,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18111271510261311333
+  Id: 3952699857435659605
   Name: "Military Worn Tire 01"
   Transform {
     Location {
@@ -216,7 +216,7 @@ Objects {
       Z: 1.99999988
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -249,7 +249,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8256080538397619849
+  Id: 12754381631898590205
   Name: "Military Tank Historic Wheel 01"
   Transform {
     Location {
@@ -265,7 +265,7 @@ Objects {
       Z: 2.04166746
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -298,7 +298,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12404335954756560386
+  Id: 8885813925113655031
   Name: "Military Worn Tire 01"
   Transform {
     Location {
@@ -315,7 +315,7 @@ Objects {
       Z: 1.99999988
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -348,7 +348,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6444044794826438979
+  Id: 10279683158784506446
   Name: "Military Tank Historic Wheel 01"
   Transform {
     Location {
@@ -364,7 +364,7 @@ Objects {
       Z: 2.04166746
     }
   }
-  ParentId: 7727033111370339944
+  ParentId: 10547141154339946391
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

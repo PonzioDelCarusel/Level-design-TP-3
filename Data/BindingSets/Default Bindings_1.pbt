@@ -1,5 +1,5 @@
 Assets {
-  Id: 3385669821894174064
+  Id: 12949467773594241929
   Name: "Default Bindings_1"
   PlatformAssetType: 29
   SerializationVersion: 101

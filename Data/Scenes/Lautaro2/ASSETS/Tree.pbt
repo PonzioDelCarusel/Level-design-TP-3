@@ -331,6 +331,8 @@ Objects {
   ChildIds: 16846786988107862254
   ChildIds: 3120187512146654434
   ChildIds: 14266257225733902580
+  ChildIds: 3651425815018626610
+  ChildIds: 9045651435125843882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -346,6 +348,104 @@ Objects {
   InstanceHistory {
     SelfId: 11614672619783965583
     SubobjectId: 8186229287897515862
+    InstanceId: 15540247593844264735
+    TemplateId: 12019321782252774189
+  }
+}
+Objects {
+  Id: 9045651435125843882
+  Name: "Damaged Concrete Pillar Bottom 01"
+  Transform {
+    Location {
+      X: 2278.41406
+      Y: 7305.61
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11614672619783965583
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5531833663473274763
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4009655674044589833
+    SubobjectId: 16650343871831911376
+    InstanceId: 15540247593844264735
+    TemplateId: 12019321782252774189
+  }
+}
+Objects {
+  Id: 3651425815018626610
+  Name: "Damaged Concrete Pillar Bottom 01"
+  Transform {
+    Location {
+      X: 2578.41406
+      Y: 7405.61
+    }
+    Rotation {
+      Yaw: 35
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11614672619783965583
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5531833663473274763
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4009655674044589833
+    SubobjectId: 16650343871831911376
     InstanceId: 15540247593844264735
     TemplateId: 12019321782252774189
   }
@@ -740,7 +840,7 @@ Objects {
   Transform {
     Location {
       X: 2578.41406
-      Y: 4705.61
+      Y: 7255.61
     }
     Rotation {
     }
