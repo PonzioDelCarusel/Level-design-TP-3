@@ -1,11 +1,65 @@
 Name: "Gameplay Settings"
-RootId: 9086936746104183945
+RootId: 3814114279018110369
 Objects {
-  Id: 14713340454944924967
-  Name: "Third Person Camera Settings"
+  Id: 13481864473765956733
+  Name: "Team Autobalancer"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8101005287434700507
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Team Autobalancer"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "cs:TeamCount"
+          Int: 1
+        }
+        Overrides {
+          Name: "cs:ScrambleAtRoundEnd"
+          Bool: false
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17998572212483534985
+    }
+  }
+}
+Objects {
+  Id: 1012357863490364705
+  Name: "Capture Points"
   Transform {
     Location {
-      Z: -1000
     }
     Rotation {
     }
@@ -15,9 +69,413 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9086936746104183945
-  ChildIds: 4226120016796708080
-  ChildIds: 724324913679364851
+  ParentId: 3814114279018110369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Capture Points"
+  }
+}
+Objects {
+  Id: 11036887285807705941
+  Name: "Game State Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Game State Settings"
+  }
+}
+Objects {
+  Id: 12192607456020848416
+  Name: "Team Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Settings {
+    TeamSettings {
+      TeamMode_v2 {
+        Value: "mc:eteammode:teamsvs"
+      }
+    }
+  }
+}
+Objects {
+  Id: 3791744731622452407
+  Name: "Respawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 5
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:farthestfromenemy"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:farthestfromenemy"
+      }
+    }
+  }
+}
+Objects {
+  Id: 17964455908133072318
+  Name: "Game Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Settings {
+    GameSettings {
+      RagdollOnDeath: true
+      ChatMode {
+        Value: "mc:echatmode:teamonly"
+      }
+      ChatSettings {
+        ChatMode {
+        }
+        ChatPosition {
+          X: 40
+        }
+        ChatSize {
+          X: 450
+          Y: 400
+        }
+        ChatHorizontalAlignment {
+          Value: "mc:ecorehorizontalalign:left"
+        }
+        ChatVerticalAlignment {
+          Value: "mc:ecorehorizontalalign:center"
+        }
+      }
+      PhysicsSettings {
+        MinContactOffset: 2
+        MaxContactOffset: 8
+      }
+      RelevanceSettings {
+        key: "decal"
+        value {
+          LowDistance: 4500
+          MediumDistance: 7000
+          HighDistance: 9000
+        }
+      }
+      RelevanceSettings {
+        key: "vfx"
+        value {
+          LowDistance: 4500
+          MediumDistance: 7000
+          HighDistance: 9000
+        }
+      }
+      VoiceChatSettings {
+        VoiceChatMode {
+          Value: "mc:evoicechatmode:none"
+        }
+        VoiceChannelType {
+          Value: "mc:evoicechanneltype:normal"
+        }
+        AudibleDistance: 6000
+        ConversationalDistance: 1500
+        AudioFadeModel {
+          Value: "mc:evoiceaudiofademodel:inverse"
+        }
+        AudioFadeIntensityByDistance: 1
+        VoiceChatPosition {
+          X: -40
+          Y: 40
+        }
+        VoiceChatHorizontalAlignment {
+          Value: "mc:ecorehorizontalalign:right"
+        }
+        VoiceChatVerticalAlignment {
+          Value: "mc:ecoreverticalalign:top"
+        }
+        VoiceChatEntryHorizontalFlow {
+          Value: "mc:ecorehorizontalflow:righttoleft"
+        }
+        VoiceChatEntryVerticalFlow {
+          Value: "mc:ecoreverticalflow:toptobottom"
+        }
+      }
+      PlayerInteractDistance: 500
+      PlayerInteractAngleDeg: 50
+      PlayerStorageMode {
+        Value: "mc:eplayerstoragemode:disabled"
+      }
+    }
+  }
+}
+Objects {
+  Id: 7829656394813370243
+  Name: "Starting Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  ChildIds: 15392304767188342366
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 9216875286505149889
+      }
+    }
+    Overrides {
+      Name: "cs:Team"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:OnlyEquipDuringRound"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:ResetStanceAfterRound"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EquipmentTemplate:tooltip"
+      String: "Equipment template to give to players"
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "If non-zero, only give equipment to players on that team"
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn:tooltip"
+      String: "Whether to replace that equipment every time a player spawns"
+    }
+    Overrides {
+      Name: "cs:OnlyEquipDuringRound:tooltip"
+      String: "If checked, players will only be given this equipment when the round starts, and will have the equipment taken away once the round ends."
+    }
+    Overrides {
+      Name: "cs:ResetStanceAfterRound:tooltip"
+      String: "Reset the player\'s stance to unarmed_stance at the end of the round. Only applies if \"OnlyEquipDuringRound\" is checked as well."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14677204227547467535
+    SubobjectId: 16657464430720987128
+    InstanceId: 6701392491503211742
+    TemplateId: 14615028099963445761
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 15392304767188342366
+  Name: "StaticPlayerEquipmentServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7829656394813370243
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 7829656394813370243
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3403025055362370891
+    }
+  }
+  InstanceHistory {
+    SelfId: 14094927996911205704
+    SubobjectId: 17230748584674696639
+    InstanceId: 6701392491503211742
+    TemplateId: 14615028099963445761
+  }
+}
+Objects {
+  Id: 17039458112829229484
+  Name: "Default Bindings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  BindingSet {
+    BindingSetAsset {
+      Id: 12949467773594241929
+    }
+  }
+}
+Objects {
+  Id: 441341203400055014
+  Name: "Third Person Camera Settings"
+  Transform {
+    Location {
+      X: -13.9538574
+      Y: -16.7428589
+      Z: -999.999878
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3814114279018110369
+  ChildIds: 11368445377781376256
+  ChildIds: 5655717846747821074
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,7 +492,7 @@ Objects {
   }
 }
 Objects {
-  Id: 724324913679364851
+  Id: 5655717846747821074
   Name: "Client Context"
   Transform {
     Location {
@@ -47,8 +505,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14713340454944924967
-  ChildIds: 3567959178173361743
+  ParentId: 441341203400055014
+  ChildIds: 3248715420226190628
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -64,7 +522,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3567959178173361743
+  Id: 3248715420226190628
   Name: "Third Person Camera"
   Transform {
     Location {
@@ -78,7 +536,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 724324913679364851
+  ParentId: 5655717846747821074
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -115,7 +573,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4226120016796708080
+  Id: 11368445377781376256
   Name: "Third Person Player Settings"
   Transform {
     Location {
@@ -128,7 +586,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14713340454944924967
+  ParentId: 441341203400055014
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -192,150 +650,6 @@ Objects {
       IsMountEnabled: true
       MaxHitpoints: 100
       PlayerMasterVolumeMultiplier: 1
-    }
-  }
-}
-Objects {
-  Id: 16123814510452902121
-  Name: "Default Bindings"
-  Transform {
-    Location {
-      Z: -1000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9086936746104183945
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  BindingSet {
-    BindingSetAsset {
-      Id: 736360303936294653
-    }
-  }
-}
-Objects {
-  Id: 7367735074338159388
-  Name: "Game Settings"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9086936746104183945
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Settings {
-    IsDefault: true
-    GameSettings {
-      RagdollOnDeath: true
-      ChatMode {
-        Value: "mc:echatmode:teamandall"
-      }
-      ChatSettings {
-        ChatMode {
-        }
-        ChatPosition {
-          X: 40
-        }
-        ChatSize {
-          X: 450
-          Y: 400
-        }
-        ChatHorizontalAlignment {
-          Value: "mc:ecorehorizontalalign:left"
-        }
-        ChatVerticalAlignment {
-          Value: "mc:ecorehorizontalalign:center"
-        }
-      }
-      PhysicsSettings {
-        MinContactOffset: 2
-        MaxContactOffset: 8
-      }
-      RelevanceSettings {
-        key: "decal"
-        value {
-          LowDistance: 4500
-          MediumDistance: 7000
-          HighDistance: 9000
-        }
-      }
-      RelevanceSettings {
-        key: "vfx"
-        value {
-          LowDistance: 4500
-          MediumDistance: 7000
-          HighDistance: 9000
-        }
-      }
-      VoiceChatSettings {
-        VoiceChatMode {
-          Value: "mc:evoicechatmode:all"
-        }
-        VoiceChannelType {
-          Value: "mc:evoicechanneltype:normal"
-        }
-        AudibleDistance: 6000
-        ConversationalDistance: 1500
-        AudioFadeModel {
-          Value: "mc:evoiceaudiofademodel:inverse"
-        }
-        AudioFadeIntensityByDistance: 1
-        VoiceChatPosition {
-          X: -40
-          Y: 40
-        }
-        VoiceChatHorizontalAlignment {
-          Value: "mc:ecorehorizontalalign:right"
-        }
-        VoiceChatVerticalAlignment {
-          Value: "mc:ecoreverticalalign:top"
-        }
-        VoiceChatEntryHorizontalFlow {
-          Value: "mc:ecorehorizontalflow:righttoleft"
-        }
-        VoiceChatEntryVerticalFlow {
-          Value: "mc:ecoreverticalflow:toptobottom"
-        }
-      }
-      PlayerInteractDistance: 500
-      PlayerInteractAngleDeg: 50
-      PlayerStorageMode {
-        Value: "mc:eplayerstoragemode:none"
-      }
     }
   }
 }
