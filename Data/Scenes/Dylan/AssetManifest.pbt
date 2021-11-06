@@ -107,12 +107,21 @@ Assets {
   }
 }
 Assets {
-  Id: 17280976981586363031
-  Name: "Corrugated Sheet Tall"
+  Id: 17452387132035491001
+  Name: "Whitebox Wall 01 Window Slot 3x"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
+    AssetId: "sm_ts_gen_whitebox_wall_001_winSlot3x"
+  }
+}
+Assets {
+  Id: 17303309681098839925
+  Name: "Whitebox Door 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_door_001"
   }
 }
 Assets {
@@ -161,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16630259605395466384
+  Name: "Frosted Glass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_frosted_glass"
+  }
+}
+Assets {
   Id: 16432165939480036733
   Name: "Urban Damaged Concrete Panel - End 02"
   PlatformAssetType: 1
@@ -185,6 +203,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_valve_003_ref"
+  }
+}
+Assets {
+  Id: 16113412185157750605
+  Name: "Rock 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_003"
   }
 }
 Assets {
@@ -284,6 +311,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
+  Id: 14964967653464214432
+  Name: "Decal Dirt Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_dirt_patch_001"
+  }
+}
+Assets {
+  Id: 14900162033845802493
+  Name: "Whitebox Floor 01 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
   }
 }
 Assets {
@@ -395,6 +440,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14076217911289592487
+  Name: "Decal Stains Round 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_round_001"
+  }
+}
+Assets {
   Id: 14070407040239722926
   Name: "Military Tank Historic Gear 01"
   PlatformAssetType: 1
@@ -428,6 +482,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_roof_metal_001_uv"
+  }
+}
+Assets {
+  Id: 13696011978524790085
+  Name: "Decal Moss Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_moss_patch_001"
   }
 }
 Assets {
@@ -503,6 +566,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12941014310237596570
+  Name: "Asphalt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
   Id: 12793060997350586228
   Name: "Military Hesco Barrier"
   PlatformAssetType: 1
@@ -557,6 +629,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12038432179896088867
+  Name: "Rock 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_001"
+  }
+}
+Assets {
   Id: 11956286602638118199
   Name: "Rusty Riveted Metal"
   PlatformAssetType: 2
@@ -572,6 +653,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_hst_container_003_ref"
+  }
+}
+Assets {
+  Id: 11821005878340898183
+  Name: "Decal Vines End 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_liane_002"
   }
 }
 Assets {
@@ -617,6 +707,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_hst_hull_001_front_ref"
+  }
+}
+Assets {
+  Id: 11234287264414246278
+  Name: "Large Wood Beam 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_large_beam_6m"
+  }
+}
+Assets {
+  Id: 11156708675503023918
+  Name: "Decal Stains Bottom 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_bottom_001"
   }
 }
 Assets {
@@ -719,15 +827,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9783373452716819494
-  Name: "Shipping Pallet - Square"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_shipping_pallet_002"
-  }
-}
-Assets {
   Id: 9757629375324072244
   Name: "Military Tank Historic Periscope 01"
   PlatformAssetType: 1
@@ -770,6 +869,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_tire_worn_02_ref"
+  }
+}
+Assets {
+  Id: 9402348243039365528
+  Name: "Carpet 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carpet_002_uv"
   }
 }
 Assets {
@@ -836,12 +944,30 @@ Assets {
   }
 }
 Assets {
+  Id: 8583021647820559245
+  Name: "Bricks Concrete Cinder Block 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_concrete_001"
+  }
+}
+Assets {
   Id: 8427623669796614632
   Name: "Rock Flat 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_005"
+  }
+}
+Assets {
+  Id: 8386322457426737957
+  Name: "Fantasy Castle Stairs Spiral Wall 01 - Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_spiral_wall_001_sm"
   }
 }
 Assets {
@@ -989,6 +1115,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7186595805803123400
+  Name: "Rock Pile 001"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_001"
+  }
+}
+Assets {
   Id: 6747614045051753376
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -1004,6 +1139,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_guardrail_001_8m_ref"
+  }
+}
+Assets {
+  Id: 6491549755555136730
+  Name: "Rock Flat 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_004"
   }
 }
 Assets {
@@ -1169,12 +1313,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4513267893957092820
+  Name: "Whitebox Wall 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_half"
+  }
+}
+Assets {
   Id: 4476219787700865463
   Name: "Whitebox Wall 01 Half"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_half"
+  }
+}
+Assets {
+  Id: 4470305887513551499
+  Name: "Decal Stains Top 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_top_001"
   }
 }
 Assets {
@@ -1241,6 +1403,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3364894731447969314
+  Name: "Metal Corrugated 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
+  }
+}
+Assets {
+  Id: 3334059869851041738
+  Name: "Rock 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_002_sm_rock_generic_002_LOD0"
+  }
+}
+Assets {
   Id: 3184356387751164974
   Name: "Metal Basic 01"
   PlatformAssetType: 2
@@ -1259,6 +1439,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3007407472627897974
+  Name: "Concrete Rough"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_rough_001"
+  }
+}
+Assets {
   Id: 2905751522032673006
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
@@ -1274,6 +1463,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_invisible_001"
+  }
+}
+Assets {
+  Id: 2868126992918365283
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -1439,6 +1637,15 @@ Assets {
   }
 }
 Assets {
+  Id: 954126169873842591
+  Name: "Rock Pile 002"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rocks_small_002"
+  }
+}
+Assets {
   Id: 818783603953564962
   Name: "Metal Painted Old 01"
   PlatformAssetType: 2
@@ -1508,6 +1715,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_004"
+  }
+}
+Assets {
+  Id: 343240024325133197
+  Name: "Metal Iron Rusted 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_002"
   }
 }
 Assets {
