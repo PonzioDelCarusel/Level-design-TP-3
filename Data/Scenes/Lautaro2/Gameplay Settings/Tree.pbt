@@ -302,6 +302,8 @@ Objects {
   Name: "Starting Weapon"
   Transform {
     Location {
+      X: -412.554688
+      Z: 251.178528
     }
     Rotation {
     }
@@ -330,11 +332,11 @@ Objects {
     }
     Overrides {
       Name: "cs:OnlyEquipDuringRound"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:ResetStanceAfterRound"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:EquipmentTemplate:tooltip"
