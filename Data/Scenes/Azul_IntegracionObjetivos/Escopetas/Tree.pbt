@@ -202,6 +202,20 @@ Objects {
             Yaw: 90
           }
         }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 70
+        }
+        Overrides {
+          Name: "cs:EquipmentAsset"
+          AssetReference {
+            Id: 10407311513897809663
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Escopeta base"
+        }
       }
     }
     TemplateAsset {
