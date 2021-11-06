@@ -1,7 +1,7 @@
 Name: "Lanza Cohete"
-RootId: 10815178543400261653
+RootId: 13181413204754635843
 Objects {
-  Id: 13692484084365859869
+  Id: 7293395969956629773
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10815178543400261653
+  ParentId: 13181413204754635843
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -50,7 +50,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 918.658
-            Y: -825.537537
+            Y: -962.449707
           }
         }
         Overrides {
@@ -75,7 +75,7 @@ Objects {
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Lanza cohetes LEGENDARIO By Grupa"
+          String: "Lanza cohetes"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -91,7 +91,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 40
+          Int: 100
         }
         Overrides {
           Name: "cs:RequiredResource"

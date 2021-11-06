@@ -30,7 +30,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ResourceMax"
-            Int: 5
+            Int: 10
           }
           Overrides {
             Name: "cs:Trigger"
@@ -115,7 +115,9 @@ Assets {
         Name: "Trigger"
         Transform {
           Location {
-            Z: 28.5500526
+            X: 21.165247
+            Y: 39.1318398
+            Z: 28.5517807
           }
           Rotation {
           }
@@ -139,7 +141,6 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Trigger {
-          Interactable: true
           InteractionLabel: "Get Loot Bag"
           TeamSettings {
             IsTeamCollisionEnabled: true
@@ -267,9 +268,9 @@ Assets {
         Name: "Point Light"
         Transform {
           Location {
-            X: -0.139657944
-            Y: 0.541298389
-            Z: 98.9257126
+            X: -747.97644
+            Y: 1552.60986
+            Z: 98.9257202
           }
           Rotation {
             Yaw: 8.69685745

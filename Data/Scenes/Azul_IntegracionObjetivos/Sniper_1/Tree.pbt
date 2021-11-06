@@ -1,7 +1,7 @@
-Name: "Sniper"
-RootId: 8796431965418369120
+Name: "Sniper_1"
+RootId: 10560208958520308995
 Objects {
-  Id: 16602704310206860305
+  Id: 16739954222941995299
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8796431965418369120
+  ParentId: 10560208958520308995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

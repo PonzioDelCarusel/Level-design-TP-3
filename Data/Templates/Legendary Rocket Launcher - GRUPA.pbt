@@ -7,7 +7,7 @@ Assets {
       RootId: 13914594851353881447
       Objects {
         Id: 13914594851353881447
-        Name: "Legendary Rocket Launcher"
+        Name: "Legendary Rocket Launcher - GRUPA"
         Transform {
           Scale {
             X: 0.99999994
@@ -287,15 +287,15 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 5
+            Int: 50
           }
           Overrides {
             Name: "cs:HeadshotNPCs"
-            Int: 500
+            Int: 750
           }
           Overrides {
             Name: "cs:HeadshotPlayers"
-            Int: 500
+            Int: 50
           }
         }
         WantsNetworking: true

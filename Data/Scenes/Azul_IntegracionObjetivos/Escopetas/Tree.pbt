@@ -1,7 +1,7 @@
 Name: "Escopetas"
-RootId: 10708216101951233280
+RootId: 1636085814283045135
 Objects {
-  Id: 9303193129551037748
+  Id: 10350720189733625591
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10708216101951233280
+  ParentId: 1636085814283045135
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -75,7 +75,7 @@ Objects {
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Escopeta LEGENDARIA By Grupa"
+          String: "Escopeta mejorada"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -91,7 +91,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 40
+          Int: 50
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -116,7 +116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13666246013867080354
+  Id: 14756058214787974062
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -132,7 +132,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10708216101951233280
+  ParentId: 1636085814283045135
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164,7 +164,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 464.658264
+            X: 688.120667
             Y: -1600
           }
         }
@@ -190,7 +190,7 @@ Objects {
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Escopeta EPICA By Grupa"
+          String: "Escopeta base"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -207,258 +207,6 @@ Objects {
         Overrides {
           Name: "cs:CostAmount"
           Int: 30
-        }
-        Overrides {
-          Name: "cs:RequiredResource"
-          String: " "
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7513669388861698518
-      value {
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8904252288490769999
-    }
-  }
-}
-Objects {
-  Id: 1449858020957978448
-  Name: "Equipment Display Purchase Pad"
-  Transform {
-    Location {
-      X: 800
-      Y: -1600
-    }
-    Rotation {
-      Yaw: -6.10351526e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10708216101951233280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 616541260329792726
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 50
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6059391594860902873
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Equipment Display Purchase Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 20.9324188
-            Y: -1600
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:EquipmentAsset"
-          AssetReference {
-            Id: 11395664335271860487
-          }
-        }
-        Overrides {
-          Name: "cs:EquipmentName"
-          String: "Escopeta rara By Grupa"
-        }
-        Overrides {
-          Name: "cs:DisplaySize"
-          Float: 1
-        }
-        Overrides {
-          Name: "cs:HeightOffset"
-          Float: 150
-        }
-        Overrides {
-          Name: "cs:RequiredResourceAmount"
-          Int: 0
-        }
-        Overrides {
-          Name: "cs:CostAmount"
-          Int: 20
-        }
-        Overrides {
-          Name: "cs:RequiredResource"
-          String: " "
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7513669388861698518
-      value {
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8904252288490769999
-    }
-  }
-}
-Objects {
-  Id: 640881497971441256
-  Name: "Equipment Display Purchase Pad"
-  Transform {
-    Location {
-      X: -5450
-      Y: -1150
-      Z: 25
-    }
-    Rotation {
-      Yaw: -6.10351526e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10708216101951233280
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 616541260329792726
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 50
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1788483168613121234
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 340
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4169838878789715414
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6059391594860902873
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Equipment Display Purchase Pad"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -377.446106
-            Y: -1600
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:EquipmentAsset"
-          AssetReference {
-            Id: 4278644118693594799
-          }
-        }
-        Overrides {
-          Name: "cs:EquipmentName"
-          String: "Escopeta basica By Grupa"
-        }
-        Overrides {
-          Name: "cs:DisplaySize"
-          Float: 1
-        }
-        Overrides {
-          Name: "cs:HeightOffset"
-          Float: 150
-        }
-        Overrides {
-          Name: "cs:RequiredResourceAmount"
-          Int: 0
-        }
-        Overrides {
-          Name: "cs:CostAmount"
-          Int: 10
         }
         Overrides {
           Name: "cs:RequiredResource"

@@ -369,14 +369,6 @@ Objects {
           String: "Basic Game State Manager"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
           }

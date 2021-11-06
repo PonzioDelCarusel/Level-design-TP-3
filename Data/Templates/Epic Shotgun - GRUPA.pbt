@@ -7,7 +7,7 @@ Assets {
       RootId: 13228385953185742310
       Objects {
         Id: 13228385953185742310
-        Name: "Epic Shotgun"
+        Name: "Epic Shotgun - GRUPA"
         Transform {
           Scale {
             X: 0.99999994
@@ -2114,7 +2114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 5
+            Int: 10
           }
           Overrides {
             Name: "cs:HeadshotNPCs"

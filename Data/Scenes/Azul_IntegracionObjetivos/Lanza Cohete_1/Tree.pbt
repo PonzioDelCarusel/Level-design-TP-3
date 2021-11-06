@@ -1,7 +1,7 @@
-Name: "Sniper"
-RootId: 8796431965418369120
+Name: "Lanza Cohete_1"
+RootId: 10815178543400261653
 Objects {
-  Id: 16602704310206860305
+  Id: 13692484084365859869
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8796431965418369120
+  ParentId: 10815178543400261653
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -50,7 +50,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 918.658
-            Y: -977.902039
+            Y: -962.449707
           }
         }
         Overrides {
@@ -70,12 +70,12 @@ Objects {
         Overrides {
           Name: "cs:EquipmentAsset"
           AssetReference {
-            Id: 13131300941035237051
+            Id: 17419933319109538702
           }
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Sniper mejorado"
+          String: "Lanza cohetes"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -91,7 +91,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 65
+          Int: 100
         }
         Overrides {
           Name: "cs:RequiredResource"

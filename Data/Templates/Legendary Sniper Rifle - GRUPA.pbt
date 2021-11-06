@@ -7,7 +7,7 @@ Assets {
       RootId: 8329647072893594859
       Objects {
         Id: 8329647072893594859
-        Name: "Legendary Sniper Rifle"
+        Name: "Legendary Sniper Rifle - GRUPA"
         Transform {
           Scale {
             X: 0.99999994
@@ -2181,19 +2181,19 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:DamageToObjects"
-            Int: 60
+            Int: 250
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 5
+            Int: 50
           }
           Overrides {
             Name: "cs:HeadshotNPCs"
-            Int: 70
+            Int: 500
           }
           Overrides {
             Name: "cs:HeadshotPlayers"
-            Int: 70
+            Int: 100
           }
         }
         WantsNetworking: true

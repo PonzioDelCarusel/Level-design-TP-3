@@ -21,11 +21,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:LobbyHasDuration"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:LobbyDuration"
-            Float: 20
+            Float: 10
           }
           Overrides {
             Name: "cs:RoundHasDuration"

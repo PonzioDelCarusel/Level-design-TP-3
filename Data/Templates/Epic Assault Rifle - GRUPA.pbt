@@ -7,7 +7,7 @@ Assets {
       RootId: 9996426910569897790
       Objects {
         Id: 9996426910569897790
-        Name: "Epic Assault Rifle"
+        Name: "Epic Assault Rifle - GRUPA"
         Transform {
           Scale {
             X: 0.99999994
@@ -2875,7 +2875,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HeadshotPlayers"
-            Int: 45
+            Int: 35
           }
         }
         WantsNetworking: true

@@ -326,7 +326,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ReplaceOnEachRespawn"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:OnlyEquipDuringRound"

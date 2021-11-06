@@ -139,7 +139,6 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Trigger {
-          Interactable: true
           InteractionLabel: "Get Awesome Treasure"
           TeamSettings {
             IsTeamCollisionEnabled: true

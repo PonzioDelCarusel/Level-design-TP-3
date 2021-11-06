@@ -1,7 +1,7 @@
-Name: "Rifles"
-RootId: 2101608392863818296
+Name: "Escopetas_1"
+RootId: 10708216101951233280
 Objects {
-  Id: 11864317591943281134
+  Id: 9303193129551037748
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2101608392863818296
+  ParentId: 10708216101951233280
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -50,7 +50,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 918.658
-            Y: -1390.51819
+            Y: -1600
           }
         }
         Overrides {
@@ -70,12 +70,12 @@ Objects {
         Overrides {
           Name: "cs:EquipmentAsset"
           AssetReference {
-            Id: 4849058954812581529
+            Id: 15861232186315142686
           }
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Rifle mejorado"
+          String: "Escopeta mejorada"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -116,7 +116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13017494424164771172
+  Id: 13666246013867080354
   Name: "Equipment Display Purchase Pad"
   Transform {
     Location {
@@ -132,7 +132,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2101608392863818296
+  ParentId: 10708216101951233280
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164,8 +164,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 683.178772
-            Y: -1390.51807
+            X: 688.120667
+            Y: -1600
           }
         }
         Overrides {
@@ -185,12 +185,12 @@ Objects {
         Overrides {
           Name: "cs:EquipmentAsset"
           AssetReference {
-            Id: 5866660482816952006
+            Id: 10407311513897809663
           }
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Rifle base"
+          String: "Escopeta base"
         }
         Overrides {
           Name: "cs:DisplaySize"

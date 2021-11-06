@@ -1,7 +1,7 @@
-Name: "Compra Armas"
-RootId: 952008092280782369
+Name: "Compra Armas_1"
+RootId: 11608997770333248260
 Objects {
-  Id: 13181413204754635843
+  Id: 10815178543400261653
   Name: "Lanza Cohete"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 952008092280782369
+  ParentId: 11608997770333248260
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29,11 +29,11 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Lanza Cohete"
+    FilePartitionName: "Lanza Cohete_1"
   }
 }
 Objects {
-  Id: 8796431965418369120
+  Id: 10560208958520308995
   Name: "Sniper"
   Transform {
     Location {
@@ -47,7 +47,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 952008092280782369
+  ParentId: 11608997770333248260
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -62,11 +62,11 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Sniper"
+    FilePartitionName: "Sniper_1"
   }
 }
 Objects {
-  Id: 2101608392863818296
+  Id: 7404393361170296972
   Name: "Rifles"
   Transform {
     Location {
@@ -79,7 +79,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 952008092280782369
+  ParentId: 11608997770333248260
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -94,11 +94,11 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Rifles"
+    FilePartitionName: "Rifles_1"
   }
 }
 Objects {
-  Id: 1636085814283045135
+  Id: 10708216101951233280
   Name: "Escopetas"
   Transform {
     Location {
@@ -111,7 +111,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 952008092280782369
+  ParentId: 11608997770333248260
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -126,6 +126,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Escopetas"
+    FilePartitionName: "Escopetas_1"
   }
 }

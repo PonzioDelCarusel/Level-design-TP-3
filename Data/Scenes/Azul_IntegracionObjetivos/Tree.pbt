@@ -17,15 +17,15 @@ Objects {
   ChildIds: 8097163749281277537
   ChildIds: 16813558807825262224
   ChildIds: 12273596663357987128
+  ChildIds: 485299421207698179
   ChildIds: 15141401180032313929
   ChildIds: 10861695435391882873
   ChildIds: 1712917828098109897
-  ChildIds: 17540389885747863713
   ChildIds: 14734595475810656167
   ChildIds: 7407284478279264789
   ChildIds: 13583379622293455340
   ChildIds: 11608997770333248260
-  ChildIds: 485299421207698179
+  ChildIds: 952008092280782369
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,15 +41,16 @@ Objects {
   }
 }
 Objects {
-  Id: 485299421207698179
-  Name: "PAK1- Building - Slim Building 2"
+  Id: 952008092280782369
+  Name: "Compra Armas"
   Transform {
     Location {
-      X: -13.9538574
-      Y: -6016.74268
-      Z: 0.000122070312
+      X: 1066.74268
+      Y: 543.160645
+      Z: 48.3452148
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 1
@@ -58,79 +59,21 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1978465174858024627
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -199.023438
-            Y: 510.537109
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5480988183792494490
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SpawnPoint"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 303.812
-            Y: 1841.52771
-            Z: 0.000122070312
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -170
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10113789520670415452
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3.8828125
-            Y: -161.871216
-            Z: 419.51709
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11041944749189881336
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -6.86645508e-05
-            Y: -161.871216
-            Z: -0.000122070312
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14204387764027774907
-    }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Compra Armas"
   }
 }
 Objects {
@@ -138,9 +81,9 @@ Objects {
   Name: "Compra Armas"
   Transform {
     Location {
-      X: -1300
-      Y: -1650
-      Z: 3650
+      X: -754.948853
+      Y: -4701.33789
+      Z: 48.3452148
     }
     Rotation {
     }
@@ -165,7 +108,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Compra Armas"
+    FilePartitionName: "Compra Armas_1"
   }
 }
 Objects {
@@ -262,67 +205,6 @@ Objects {
   }
 }
 Objects {
-  Id: 17540389885747863713
-  Name: "Loot Bag 5"
-  Transform {
-    Location {
-      X: 1000
-      Y: -2000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.99999994
-      Y: 0.99999994
-      Z: 0.99999994
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 419777977596350189
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Loot Bag 5"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1000
-            Y: -2000
-          }
-        }
-        Overrides {
-          Name: "cs:ResourceMin"
-          Int: 10
-        }
-        Overrides {
-          Name: "cs:ResourceMax"
-          Int: 10
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 925571488236501906
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -747.97644
-            Y: 1552.60986
-            Z: 98.9257202
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11225773883904148015
-    }
-  }
-}
-Objects {
   Id: 1712917828098109897
   Name: "Loot Drop Factory"
   Transform {
@@ -341,6 +223,24 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 4905451867655240875
+      value {
+        Overrides {
+          Name: "cs:Incidence"
+          Int: 5
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11112535143872401490
+      value {
+        Overrides {
+          Name: "cs:Incidence"
+          Int: 2
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 15821373674062278737
       value {
@@ -985,7 +885,7 @@ Objects {
         Overrides {
           Name: "cs:ObjectAssetReference"
           AssetReference {
-            Id: 4823454064907051838
+            Id: 6944455936005247128
           }
         }
         Overrides {
@@ -1375,7 +1275,7 @@ Objects {
         Overrides {
           Name: "cs:ObjectAssetReference"
           AssetReference {
-            Id: 4823454064907051838
+            Id: 6944455936005247128
           }
         }
         Overrides {
@@ -1440,7 +1340,7 @@ Objects {
         Overrides {
           Name: "cs:ObjectAssetReference"
           AssetReference {
-            Id: 4823454064907051838
+            Id: 12791551700519635767
           }
         }
         Overrides {
@@ -1505,7 +1405,7 @@ Objects {
         Overrides {
           Name: "cs:ObjectAssetReference"
           AssetReference {
-            Id: 4823454064907051838
+            Id: 12791551700519635767
           }
         }
         Overrides {
@@ -1570,7 +1470,7 @@ Objects {
         Overrides {
           Name: "cs:ObjectAssetReference"
           AssetReference {
-            Id: 4823454064907051838
+            Id: 12791551700519635767
           }
         }
         Overrides {
@@ -1635,7 +1535,7 @@ Objects {
         Overrides {
           Name: "cs:ObjectAssetReference"
           AssetReference {
-            Id: 4823454064907051838
+            Id: 12791551700519635767
           }
         }
         Overrides {
@@ -1877,7 +1777,7 @@ Objects {
         Overrides {
           Name: "cs:ObjectAssetReference"
           AssetReference {
-            Id: 4823454064907051838
+            Id: 12791551700519635767
           }
         }
         Overrides {
@@ -1986,7 +1886,7 @@ Objects {
     Overrides {
       Name: "cs:ObjectAssetReference"
       AssetReference {
-        Id: 4823454064907051838
+        Id: 12791551700519635767
       }
     }
     Overrides {
@@ -2286,6 +2186,99 @@ Objects {
     }
     TemplateAsset {
       Id: 8466080373645416671
+    }
+  }
+}
+Objects {
+  Id: 485299421207698179
+  Name: "PAK1- Building - Slim Building 2"
+  Transform {
+    Location {
+      X: -13.9538574
+      Y: -6016.74268
+      Z: 0.000122070312
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1978465174858024627
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -199.023438
+            Y: 510.537109
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5480988183792494490
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SpawnPoint"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 303.812
+            Y: 1841.52771
+            Z: 0.000122070312
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -170
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10113789520670415452
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3.8828125
+            Y: -161.871216
+            Z: 419.51709
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11041944749189881336
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6.86645508e-05
+            Y: -161.871216
+            Z: -0.000122070312
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14204387764027774907
     }
   }
 }
