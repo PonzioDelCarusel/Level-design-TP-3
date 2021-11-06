@@ -7,7 +7,7 @@ Assets {
       RootId: 9303863288939435699
       Objects {
         Id: 9303863288939435699
-        Name: "Undead NPC Dashawn"
+        Name: "Zombie - TANQUE"
         Transform {
           Scale {
             X: 1
@@ -26,7 +26,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Team"
-            Int: 2
+            Int: 99
           }
           Overrides {
             Name: "cs:CurrentState"

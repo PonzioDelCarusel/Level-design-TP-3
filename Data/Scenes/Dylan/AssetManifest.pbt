@@ -116,15 +116,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17303309681098839925
-  Name: "Whitebox Door 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_door_001"
-  }
-}
-Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -1400,15 +1391,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rocks_small_002"
-  }
-}
-Assets {
-  Id: 3364894731447969314
-  Name: "Metal Corrugated 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
   }
 }
 Assets {
