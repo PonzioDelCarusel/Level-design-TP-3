@@ -51,6 +51,26 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 4169838878789715414
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4690330215573653168
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 5181372142478166932
       value {
         Overrides {
@@ -112,7 +132,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 50
+          Int: 100
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -145,6 +165,12 @@ Objects {
           Vector {
             X: -51.3030396
             Y: -140.953888
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35
           }
         }
       }
@@ -278,7 +304,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 30
+          Int: 70
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -305,6 +331,12 @@ Objects {
           Vector {
             X: -17.3648319
             Y: -98.4807587
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -15
           }
         }
       }

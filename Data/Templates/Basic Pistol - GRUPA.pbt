@@ -7,7 +7,7 @@ Assets {
       RootId: 6395141435812646927
       Objects {
         Id: 6395141435812646927
-        Name: "Basic Pistol"
+        Name: "Basic Pistol - GRUPA"
         Transform {
           Scale {
             X: 0.99999994
@@ -1637,7 +1637,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:DamageToObjects"
-            Int: 25
+            Int: 50
           }
           Overrides {
             Name: "cs:DamageToPlayers"
@@ -1645,7 +1645,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HeadshotNPCs"
-            Int: 35
+            Int: 70
           }
           Overrides {
             Name: "cs:HeadshotPlayers"

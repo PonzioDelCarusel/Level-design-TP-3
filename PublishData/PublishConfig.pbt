@@ -1,6 +1,6 @@
 GameId: "4f95ee7d32894b2f89d778240902b51b"
 ClientVersion: "1.0.221-prod-s"
-Name: "Level design TP 3"
+Name: "La grupa PVP - Chapter 1"
 Description: "Jueguito de la grupa"
 Tags: "Action"
 Tags: "CaptureTheFlag"

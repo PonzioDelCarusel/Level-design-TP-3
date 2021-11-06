@@ -102,7 +102,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 50
+          Int: 100
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -183,39 +183,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 616541260329792726
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 50
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1788483168613121234
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 330
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4169838878789715414
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 51.6547852
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 6059391594860902873
       value {
         Overrides {
@@ -233,83 +200,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:EquipmentAsset"
-          AssetReference {
-            Id: 10407311513897809663
-          }
-        }
-        Overrides {
-          Name: "cs:EquipmentName"
-          String: "Escopeta base"
-        }
-        Overrides {
-          Name: "cs:DisplaySize"
-          Float: 1
-        }
-        Overrides {
-          Name: "cs:HeightOffset"
-          Float: 150
-        }
-        Overrides {
-          Name: "cs:RequiredResourceAmount"
-          Int: 0
-        }
-        Overrides {
-          Name: "cs:CostAmount"
-          Int: 30
-        }
-        Overrides {
-          Name: "cs:RequiredResource"
-          String: " "
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7513669388861698518
-      value {
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 250
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9820443761214369796
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 100
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10101057039625118317
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 290
           }
         }
       }

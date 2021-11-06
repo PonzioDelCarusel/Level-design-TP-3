@@ -102,7 +102,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 50
+          Int: 100
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -256,7 +256,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 30
+          Int: 70
         }
         Overrides {
           Name: "cs:RequiredResource"

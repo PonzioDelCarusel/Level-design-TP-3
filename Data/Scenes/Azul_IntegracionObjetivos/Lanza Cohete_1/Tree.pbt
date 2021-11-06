@@ -102,7 +102,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 100
+          Int: 500
         }
         Overrides {
           Name: "cs:RequiredResource"
@@ -133,8 +133,14 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -12.9409513
-            Y: -48.2962875
+            X: 3.24249268e-05
+            Y: -48.296
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -15
           }
         }
       }
