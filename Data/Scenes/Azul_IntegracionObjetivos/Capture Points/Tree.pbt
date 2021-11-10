@@ -907,13 +907,15 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
+      X: -163.657227
+      Y: 104.083984
       Z: 149.999878
     }
     Rotation {
     }
     Scale {
-      X: 8
-      Y: 8
+      X: 6.43962526
+      Y: 5.90835047
       Z: 3
     }
   }
@@ -1758,13 +1760,15 @@ Objects {
   Name: "Cube Highlight"
   Transform {
     Location {
-      Z: -449.999878
+      X: 29.9367676
+      Y: -50.5272217
+      Z: 22.170166
     }
     Rotation {
     }
     Scale {
-      X: 8
-      Y: 8
+      X: 5.79209852
+      Y: 6.80311871
       Z: 11
     }
   }

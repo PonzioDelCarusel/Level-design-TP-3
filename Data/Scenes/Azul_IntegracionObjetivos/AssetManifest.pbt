@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17700433856292487787
+  Name: "Edgeline Wavy Object Fade Advanced"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_add_edgeline_local"
+  }
+}
+Assets {
   Id: 17687432801572771441
   Name: "Bone Human Scattered 01"
   PlatformAssetType: 1
@@ -338,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_shipping_pallet_001"
+  }
+}
+Assets {
+  Id: 9536141319314062468
+  Name: "Craftsman Porch Fence Railing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
   }
 }
 Assets {

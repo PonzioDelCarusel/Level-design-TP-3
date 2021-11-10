@@ -1,7 +1,7 @@
-Name: "Lobby_1"
-RootId: 10529637905074045217
+Name: "LobbySinTeamCollision"
+RootId: 4131612744347892306
 Objects {
-  Id: 15466814118478104347
+  Id: 7995388932923495986
   Name: "Lobby Geometry"
   Transform {
     Location {
@@ -16,9 +16,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10529637905074045217
-  ChildIds: 11511737125043593558
-  ChildIds: 18438772437999078353
+  ParentId: 4131612744347892306
+  ChildIds: 16048087207682018447
+  ChildIds: 9365873189684639830
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18438772437999078353
+  Id: 9365873189684639830
   Name: "Game State Geometry"
   Transform {
     Rotation {
@@ -46,13 +46,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15466814118478104347
-  ChildIds: 10632641732097374464
+  ParentId: 7995388932923495986
+  ChildIds: 10925440659617640893
   UnregisteredParameters {
     Overrides {
       Name: "cs:Geometry"
       ObjectReference {
-        SelfId: 11511737125043593558
+        SelfId: 16048087207682018447
       }
     }
     Overrides {
@@ -61,7 +61,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ExistsInRound"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:ExistsInRoundEnd"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10632641732097374464
+  Id: 10925440659617640893
   Name: "GameStateGeometryServer"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18438772437999078353
+  ParentId: 9365873189684639830
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -129,7 +129,7 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 18438772437999078353
+        SelfId: 9365873189684639830
       }
     }
   }
@@ -156,7 +156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11511737125043593558
+  Id: 16048087207682018447
   Name: "Geometry"
   Transform {
     Location {
@@ -171,10 +171,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15466814118478104347
-  ChildIds: 5154079083665945884
-  ChildIds: 11358959083316237019
-  ChildIds: 17632514379593264747
+  ParentId: 7995388932923495986
+  ChildIds: 10882610626076866443
+  ChildIds: 15869139626016079382
+  ChildIds: 12259903789183707304
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -192,7 +192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17632514379593264747
+  Id: 12259903789183707304
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -208,7 +208,7 @@ Objects {
       Z: 0.638737738
     }
   }
-  ParentId: 11511737125043593558
+  ParentId: 16048087207682018447
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -239,8 +239,7 @@ Objects {
     }
     Teams {
       UseTeamColor: true
-      TeamInt: 1
-      IsTeamCollisionEnabled: true
+      TeamInt: 2
       IsEnemyCollisionEnabled: true
     }
     InteractWithTriggers: true
@@ -252,7 +251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11358959083316237019
+  Id: 15869139626016079382
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -269,7 +268,7 @@ Objects {
       Z: 0.8
     }
   }
-  ParentId: 11511737125043593558
+  ParentId: 16048087207682018447
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -313,7 +312,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5154079083665945884
+  Id: 10882610626076866443
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -329,7 +328,7 @@ Objects {
       Z: 0.622399926
     }
   }
-  ParentId: 11511737125043593558
+  ParentId: 16048087207682018447
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -361,7 +360,6 @@ Objects {
     Teams {
       UseTeamColor: true
       TeamInt: 1
-      IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
     InteractWithTriggers: true
@@ -373,7 +371,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5507099971040888282
+  Id: 6639873457361967671
   Name: "Spawn Points"
   Transform {
     Location {
@@ -390,7 +388,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10529637905074045217
+  ParentId: 4131612744347892306
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -404,6 +402,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Spawn Points"
+    FilePartitionName: "Spawn Points_1"
   }
 }
