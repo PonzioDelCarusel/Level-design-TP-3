@@ -86,8 +86,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1266.73901
-            Y: -856.354187
+            X: 1266.72827
+            Y: -906.35614
           }
         }
         Overrides {
@@ -112,7 +112,7 @@ Objects {
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Sniper mejorado"
+          String: "Sniper"
         }
         Overrides {
           Name: "cs:DisplaySize"

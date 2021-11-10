@@ -103,6 +103,10 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:TeamScoreLimit"
+          Int: 500
+        }
       }
     }
     TemplateAsset {
@@ -377,6 +381,10 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "cs:RoundDuration"
+          Float: 300
         }
       }
     }

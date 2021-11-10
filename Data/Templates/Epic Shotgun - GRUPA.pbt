@@ -2110,15 +2110,15 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:DamageToObjects"
-            Int: 30
+            Int: 50
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 10
+            Int: 5
           }
           Overrides {
             Name: "cs:HeadshotNPCs"
-            Int: 35
+            Int: 70
           }
           Overrides {
             Name: "cs:HeadshotPlayers"

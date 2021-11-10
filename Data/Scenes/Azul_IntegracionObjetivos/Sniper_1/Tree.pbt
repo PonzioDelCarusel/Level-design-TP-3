@@ -39,7 +39,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 918.658
-            Y: -830
+            Y: -899.522949
           }
         }
         Overrides {
@@ -47,6 +47,10 @@ Objects {
           Rotator {
             Yaw: 90
           }
+        }
+        Overrides {
+          Name: "cs:EquipmentName"
+          String: "Sniper"
         }
       }
     }

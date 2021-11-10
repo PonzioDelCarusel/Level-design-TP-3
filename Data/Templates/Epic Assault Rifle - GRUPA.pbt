@@ -2867,11 +2867,11 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 5
+            Int: 15
           }
           Overrides {
             Name: "cs:HeadshotNPCs"
-            Int: 45
+            Int: 50
           }
           Overrides {
             Name: "cs:HeadshotPlayers"

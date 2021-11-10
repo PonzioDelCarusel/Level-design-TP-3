@@ -7,7 +7,7 @@ Assets {
       RootId: 8681612873284839745
       Objects {
         Id: 8681612873284839745
-        Name: "Legendary Assault Rifle"
+        Name: "Legendary Assault Rifle - GRUPA"
         Transform {
           Scale {
             X: 0.99999994
@@ -2853,11 +2853,11 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 5
+            Int: 20
           }
           Overrides {
             Name: "cs:HeadshotNPCs"
-            Int: 55
+            Int: 70
           }
           Overrides {
             Name: "cs:HeadshotPlayers"
