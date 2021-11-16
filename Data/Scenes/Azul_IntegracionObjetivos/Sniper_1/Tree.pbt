@@ -52,6 +52,10 @@ Objects {
           Name: "cs:EquipmentName"
           String: "Sniper"
         }
+        Overrides {
+          Name: "cs:CostAmount"
+          Int: 100
+        }
       }
     }
     ParameterOverrideMap {

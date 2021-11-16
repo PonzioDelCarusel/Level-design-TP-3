@@ -116,7 +116,7 @@ Objects {
         }
         Overrides {
           Name: "cs:EquipmentName"
-          String: "Rifle mejorado"
+          String: "Rifle"
         }
         Overrides {
           Name: "cs:DisplaySize"
@@ -132,7 +132,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 100
+          Int: 50
         }
         Overrides {
           Name: "cs:RequiredResource"

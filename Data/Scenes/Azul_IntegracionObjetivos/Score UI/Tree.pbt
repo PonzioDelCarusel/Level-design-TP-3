@@ -31,7 +31,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 100
+      Int: 500
     }
     Overrides {
       Name: "cs:Team:tooltip"
@@ -452,7 +452,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 100
+      Int: 500
     }
     Overrides {
       Name: "cs:Team:tooltip"

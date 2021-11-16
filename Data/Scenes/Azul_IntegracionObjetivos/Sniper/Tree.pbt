@@ -128,7 +128,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CostAmount"
-          Int: 200
+          Int: 100
         }
         Overrides {
           Name: "cs:RequiredResource"
